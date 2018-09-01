@@ -38,6 +38,12 @@
 		1580DD74213A7B06009A9E9B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1580DD67213A7B06009A9E9B /* SystemConfiguration.framework */; };
 		1580DD76213A7B17009A9E9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1580DD75213A7B17009A9E9B /* Foundation.framework */; };
 		1580DD78213A7B45009A9E9B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1580DD77213A7B45009A9E9B /* Security.framework */; };
+		1580DD7B213A9801009A9E9B /* GoogleMapsCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1580DD3F213A79AF009A9E9B /* GoogleMapsCore.framework */; };
+		1580DD7C213A9801009A9E9B /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1580DD40213A79AF009A9E9B /* GoogleMaps.framework */; };
+		1580DD7D213A9808009A9E9B /* GoogleMapsBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1580DD45213A79AF009A9E9B /* GoogleMapsBase.framework */; };
+		1580DD7E213A980F009A9E9B /* GooglePlacePicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1580DD3B213A79AF009A9E9B /* GooglePlacePicker.framework */; };
+		1580DD7F213A9813009A9E9B /* GooglePlaces.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1580DD4A213A79B0009A9E9B /* GooglePlaces.framework */; };
+		1580DD81213A9828009A9E9B /* GoogleMapsPlacesSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1580DD80213A9828009A9E9B /* GoogleMapsPlacesSDK.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +109,7 @@
 		1580DD67213A7B06009A9E9B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		1580DD75213A7B17009A9E9B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1580DD77213A7B45009A9E9B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		1580DD80213A9828009A9E9B /* GoogleMapsPlacesSDK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapsPlacesSDK.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,13 +125,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1580DD7C213A9801009A9E9B /* GoogleMaps.framework in Frameworks */,
 				1580DD78213A7B45009A9E9B /* Security.framework in Frameworks */,
 				1580DD76213A7B17009A9E9B /* Foundation.framework in Frameworks */,
 				1580DD68213A7B06009A9E9B /* GLKit.framework in Frameworks */,
 				1580DD69213A7B06009A9E9B /* CoreTelephony.framework in Frameworks */,
+				1580DD7D213A9808009A9E9B /* GoogleMapsBase.framework in Frameworks */,
 				1580DD6A213A7B06009A9E9B /* libz.tbd in Frameworks */,
+				1580DD7F213A9813009A9E9B /* GooglePlaces.framework in Frameworks */,
+				1580DD7E213A980F009A9E9B /* GooglePlacePicker.framework in Frameworks */,
 				1580DD6B213A7B06009A9E9B /* CoreImage.framework in Frameworks */,
 				1580DD6C213A7B06009A9E9B /* QuartzCore.framework in Frameworks */,
+				1580DD7B213A9801009A9E9B /* GoogleMapsCore.framework in Frameworks */,
 				1580DD6D213A7B06009A9E9B /* ImageIO.framework in Frameworks */,
 				1580DD6E213A7B06009A9E9B /* UIKit.framework in Frameworks */,
 				1580DD6F213A7B06009A9E9B /* CoreText.framework in Frameworks */,
@@ -179,6 +191,7 @@
 				1580D661213A6DA1009A9E9B /* Frameworks */,
 				1580D656213A6D99009A9E9B /* GoogleMapsPlacesSDK_Framework.h */,
 				1580D657213A6D99009A9E9B /* Info.plist */,
+				1580DD80213A9828009A9E9B /* GoogleMapsPlacesSDK.swift */,
 			);
 			path = "GoogleMapsPlacesSDK-Framework";
 			sourceTree = "<group>";
@@ -363,6 +376,7 @@
 					};
 					1580D653213A6D99009A9E9B = {
 						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 0940;
 					};
 				};
 			};
@@ -466,6 +480,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1580DD81213A9828009A9E9B /* GoogleMapsPlacesSDK.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -616,6 +631,7 @@
 		1580D64D213A6D75009A9E9B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = GoogleMapsPlacesSDK/Info.plist;
@@ -633,6 +649,7 @@
 		1580D64E213A6D75009A9E9B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = GoogleMapsPlacesSDK/Info.plist;
@@ -650,6 +667,7 @@
 		1580D65E213A6D99009A9E9B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -676,6 +694,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ZaidPathan.GoogleMapsPlacesSDK-Framework";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -686,6 +705,7 @@
 		1580D65F213A6D99009A9E9B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
