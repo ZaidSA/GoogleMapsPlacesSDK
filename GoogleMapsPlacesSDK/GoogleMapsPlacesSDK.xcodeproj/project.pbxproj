@@ -15,10 +15,213 @@
 		1580D658213A6D99009A9E9B /* GoogleMapsPlacesSDK_Framework.h in Headers */ = {isa = PBXBuildFile; fileRef = 1580D656213A6D99009A9E9B /* GoogleMapsPlacesSDK_Framework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1580D65B213A6D99009A9E9B /* GoogleMapsPlacesSDK_Framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1580D654213A6D99009A9E9B /* GoogleMapsPlacesSDK_Framework.framework */; };
 		1580D65C213A6D99009A9E9B /* GoogleMapsPlacesSDK_Framework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1580D654213A6D99009A9E9B /* GoogleMapsPlacesSDK_Framework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		1580D664213A6E28009A9E9B /* GoogleMapsCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1580D662213A6E26009A9E9B /* GoogleMapsCore.framework */; };
-		1580D665213A6E28009A9E9B /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1580D663213A6E28009A9E9B /* GoogleMaps.framework */; };
-		1580D667213A6E51009A9E9B /* GooglePlacePicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1580D666213A6E51009A9E9B /* GooglePlacePicker.framework */; };
-		1580D669213A6E66009A9E9B /* GooglePlaces.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1580D668213A6E66009A9E9B /* GooglePlaces.framework */; };
+		1580DA23213A73E3009A9E9B /* CHANGELOG in Resources */ = {isa = PBXBuildFile; fileRef = 1580D8AF213A73D9009A9E9B /* CHANGELOG */; };
+		1580DA24213A73E3009A9E9B /* DemoData.m in Sources */ = {isa = PBXBuildFile; fileRef = 1580D8B5213A73D9009A9E9B /* DemoData.m */; };
+		1580DA25213A73E3009A9E9B /* DemoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1580D8B6213A73D9009A9E9B /* DemoListViewController.m */; };
+		1580DA26213A73E3009A9E9B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1580D8B8213A73D9009A9E9B /* Localizable.strings */; };
+		1580DA27213A73E3009A9E9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1580D8D0213A73D9009A9E9B /* LaunchScreen.storyboard */; };
+		1580DA28213A73E3009A9E9B /* PlacesDemoAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1580D8E2213A73D9009A9E9B /* PlacesDemoAssets.xcassets */; };
+		1580DA29213A73E3009A9E9B /* DemoAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1580D8E6213A73D9009A9E9B /* DemoAppDelegate.h */; };
+		1580DA2A213A73E3009A9E9B /* SDKDemoAPIKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 1580D8E7213A73D9009A9E9B /* SDKDemoAPIKey.h */; };
+		1580DA2B213A73E3009A9E9B /* PlacePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1580D8E9213A73D9009A9E9B /* PlacePickerViewController.m */; };
+		1580DA2C213A73E3009A9E9B /* PhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1580D8EA213A73D9009A9E9B /* PhotosViewController.m */; };
+		1580DA2D213A73E3009A9E9B /* AutocompleteWithSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1580D8EC213A73D9009A9E9B /* AutocompleteWithSearchViewController.m */; };
+		1580DA2E213A73E3009A9E9B /* AutocompleteBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1580D8ED213A73D9009A9E9B /* AutocompleteBaseViewController.h */; };
+		1580DA2F213A73E3009A9E9B /* AutocompleteWithSearchDisplayController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1580D8EE213A73D9009A9E9B /* AutocompleteWithSearchDisplayController.h */; };
+		1580DA30213A73E3009A9E9B /* AutocompletePushViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1580D8EF213A73D9009A9E9B /* AutocompletePushViewController.h */; };
+		1580DA31213A73E3009A9E9B /* AutocompleteModalViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1580D8F0213A73D9009A9E9B /* AutocompleteModalViewController.h */; };
+		1580DA32213A73E3009A9E9B /* AutocompleteWithCustomColors.h in Headers */ = {isa = PBXBuildFile; fileRef = 1580D8F1213A73D9009A9E9B /* AutocompleteWithCustomColors.h */; };
+		1580DA33213A73E3009A9E9B /* AutocompleteWithTextFieldController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1580D8F2213A73D9009A9E9B /* AutocompleteWithTextFieldController.h */; };
+		1580DA34213A73E3009A9E9B /* AutocompleteWithSearchViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1580D8F3213A73D9009A9E9B /* AutocompleteWithSearchViewController.h */; };
+		1580DA35213A73E3009A9E9B /* AutocompleteWithSearchDisplayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1580D8F4213A73D9009A9E9B /* AutocompleteWithSearchDisplayController.m */; };
+		1580DA36213A73E3009A9E9B /* AutocompletePushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1580D8F5213A73D9009A9E9B /* AutocompletePushViewController.m */; };
+		1580DA37213A73E3009A9E9B /* AutocompleteBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1580D8F6213A73D9009A9E9B /* AutocompleteBaseViewController.m */; };
+		1580DA38213A73E3009A9E9B /* AutocompleteWithTextFieldController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1580D8F7213A73D9009A9E9B /* AutocompleteWithTextFieldController.m */; };
+		1580DA39213A73E3009A9E9B /* AutocompleteWithCustomColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 1580D8F8213A73D9009A9E9B /* AutocompleteWithCustomColors.m */; };
+		1580DA3A213A73E3009A9E9B /* AutocompleteModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1580D8F9213A73D9009A9E9B /* AutocompleteModalViewController.m */; };
+		1580DA3B213A73E3009A9E9B /* PagingPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1580D8FA213A73D9009A9E9B /* PagingPhotoView.m */; };
+		1580DA3C213A73E3009A9E9B /* PlacePickerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1580D8FB213A73D9009A9E9B /* PlacePickerViewController.h */; };
+		1580DA3D213A73E3009A9E9B /* PhotosViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1580D8FC213A73D9009A9E9B /* PhotosViewController.h */; };
+		1580DA3E213A73E3009A9E9B /* PagingPhotoView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1580D8FD213A73D9009A9E9B /* PagingPhotoView.h */; };
+		1580DA3F213A73E3009A9E9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1580D8FE213A73D9009A9E9B /* main.m */; };
+		1580DA40213A73E3009A9E9B /* BaseDemoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1580D900213A73D9009A9E9B /* BaseDemoViewController.h */; };
+		1580DA41213A73E3009A9E9B /* MainSplitViewControllerBehaviorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1580D901213A73D9009A9E9B /* MainSplitViewControllerBehaviorManager.h */; };
+		1580DA42213A73E3009A9E9B /* BaseDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1580D902213A73D9009A9E9B /* BaseDemoViewController.m */; };
+		1580DA43213A73E3009A9E9B /* MainSplitViewControllerBehaviorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1580D903213A73D9009A9E9B /* MainSplitViewControllerBehaviorManager.m */; };
+		1580DA44213A73E3009A9E9B /* DemoData.h in Headers */ = {isa = PBXBuildFile; fileRef = 1580D904213A73D9009A9E9B /* DemoData.h */; };
+		1580DA45213A73E3009A9E9B /* DemoListViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1580D905213A73D9009A9E9B /* DemoListViewController.h */; };
+		1580DA46213A73E3009A9E9B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1580D906213A73D9009A9E9B /* Info.plist */; };
+		1580DA47213A73E3009A9E9B /* DemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1580D907213A73D9009A9E9B /* DemoAppDelegate.m */; };
+		1580DA48213A73E3009A9E9B /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 1580D908213A73D9009A9E9B /* Podfile */; };
+		1580DA49213A73E3009A9E9B /* README.GooglePlacesDemos in Resources */ = {isa = PBXBuildFile; fileRef = 1580D909213A73D9009A9E9B /* README.GooglePlacesDemos */; };
+		1580DA4A213A73E3009A9E9B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1580D90A213A73D9009A9E9B /* README.md */; };
+		1580DA4B213A73E3009A9E9B /* GooglePlaces.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1580D90C213A73D9009A9E9B /* GooglePlaces.framework */; };
+		1580DA4C213A73E3009A9E9B /* CHANGELOG in Resources */ = {isa = PBXBuildFile; fileRef = 1580D911213A73DA009A9E9B /* CHANGELOG */; };
+		1580DA4D213A73E3009A9E9B /* README.GooglePlacePickerDemos in Resources */ = {isa = PBXBuildFile; fileRef = 1580D913213A73DA009A9E9B /* README.GooglePlacePickerDemos */; };
+		1580DA4E213A73E3009A9E9B /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 1580D917213A73DA009A9E9B /* Podfile */; };
+		1580DA4F213A73E3009A9E9B /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1580D919213A73DA009A9E9B /* Styles.swift */; };
+		1580DA50213A73E3009A9E9B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1580D91B213A73DA009A9E9B /* Localizable.strings */; };
+		1580DA51213A73E3009A9E9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1580D933213A73DA009A9E9B /* LaunchScreen.storyboard */; };
+		1580DA52213A73E3009A9E9B /* PlacePickerDemoAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1580D93E213A73DA009A9E9B /* PlacePickerDemoAssets.xcassets */; };
+		1580DA53213A73E3009A9E9B /* ShadowLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1580D949213A73DA009A9E9B /* ShadowLineView.swift */; };
+		1580DA54213A73E3009A9E9B /* PickAPlaceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1580D94C213A73DA009A9E9B /* PickAPlaceViewController.xib */; };
+		1580DA55213A73E3009A9E9B /* PickAPlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1580D94D213A73DA009A9E9B /* PickAPlaceViewController.swift */; };
+		1580DA56213A73E3009A9E9B /* PlaceAttributeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1580D94F213A73DA009A9E9B /* PlaceAttributeCell.xib */; };
+		1580DA57213A73E3009A9E9B /* PlaceDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1580D950213A73DA009A9E9B /* PlaceDetailViewController.xib */; };
+		1580DA58213A73E3009A9E9B /* PlaceAttributeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1580D951213A73DA009A9E9B /* PlaceAttributeCell.swift */; };
+		1580DA59213A73E3009A9E9B /* PlaceNameHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1580D952213A73DA009A9E9B /* PlaceNameHeader.swift */; };
+		1580DA5A213A73E3009A9E9B /* PlaceDetailTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1580D953213A73DA009A9E9B /* PlaceDetailTableViewDataSource.swift */; };
+		1580DA5B213A73E3009A9E9B /* PlaceNameHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1580D954213A73DA009A9E9B /* PlaceNameHeader.xib */; };
+		1580DA5C213A73E3009A9E9B /* PlaceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1580D955213A73DA009A9E9B /* PlaceDetailViewController.swift */; };
+		1580DA5D213A73E3009A9E9B /* BackgroundMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1580D957213A73DA009A9E9B /* BackgroundMapViewController.swift */; };
+		1580DA5E213A73E3009A9E9B /* InsetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1580D958213A73DA009A9E9B /* InsetViewController.swift */; };
+		1580DA5F213A73E3009A9E9B /* SplitPaneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1580D959213A73DA009A9E9B /* SplitPaneViewController.swift */; };
+		1580DA60213A73E3009A9E9B /* BaseContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1580D95A213A73DA009A9E9B /* BaseContainerViewController.swift */; };
+		1580DA61213A73E3009A9E9B /* NotificationObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1580D95C213A73DA009A9E9B /* NotificationObserver.swift */; };
+		1580DA62213A73E3009A9E9B /* CGRect+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1580D95D213A73DA009A9E9B /* CGRect+Extensions.swift */; };
+		1580DA63213A73E3009A9E9B /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1580D95E213A73DA009A9E9B /* ShadowView.swift */; };
+		1580DA64213A73E3009A9E9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1580D95F213A73DA009A9E9B /* AppDelegate.swift */; };
+		1580DA65213A73E3009A9E9B /* SDKDemoAPIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1580D960213A73DA009A9E9B /* SDKDemoAPIKey.swift */; };
+		1580DA66213A73E3009A9E9B /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1580D961213A73DA009A9E9B /* RoundedButton.swift */; };
+		1580DA67213A73E3009A9E9B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1580D962213A73DA009A9E9B /* Info.plist */; };
+		1580DA68213A73E3009A9E9B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1580D963213A73DA009A9E9B /* README.md */; };
+		1580DA69213A73E3009A9E9B /* GooglePlacePicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1580D965213A73DA009A9E9B /* GooglePlacePicker.framework */; };
+		1580DA6A213A73E3009A9E9B /* GoogleMapsCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1580D96C213A73E2009A9E9B /* GoogleMapsCore.framework */; };
+		1580DA6B213A73E3009A9E9B /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1580D96D213A73E2009A9E9B /* GoogleMaps.framework */; };
+		1580DA6C213A73E3009A9E9B /* CHANGELOG in Resources */ = {isa = PBXBuildFile; fileRef = 1580D96E213A73E2009A9E9B /* CHANGELOG */; };
+		1580DA6D213A73E3009A9E9B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1580D975213A73E2009A9E9B /* InfoPlist.strings */; };
+		1580DA6E213A73E3009A9E9B /* step5.png in Resources */ = {isa = PBXBuildFile; fileRef = 1580D977213A73E2009A9E9B /* step5.png */; };
+		1580DA6F213A73E3009A9E9B /* step1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1580D979213A73E2009A9E9B /* step1@2x.png */; };
+		1580DA70213A73E3009A9E9B /* step4.png in Resources */ = {isa = PBXBuildFile; fileRef = 1580D97B213A73E2009A9E9B /* step4.png */; };
+		1580DA71213A73E3009A9E9B /* argentina.png in Resources */ = {isa = PBXBuildFile; fileRef = 1580D97D213A73E2009A9E9B /* argentina.png */; };
+		1580DA72213A73E3009A9E9B /* boat.png in Resources */ = {isa = PBXBuildFile; fileRef = 1580D97F213A73E2009A9E9B /* boat.png */; };
+		1580DA73213A73E3009A9E9B /* aeroplane@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1580D980213A73E2009A9E9B /* aeroplane@2x.png */; };
+		1580DA74213A73E3009A9E9B /* step6.png in Resources */ = {isa = PBXBuildFile; fileRef = 1580D981213A73E2009A9E9B /* step6.png */; };
+		1580DA75213A73E3009A9E9B /* mapstyle-night.json in Resources */ = {isa = PBXBuildFile; fileRef = 1580D982213A73E2009A9E9B /* mapstyle-night.json */; };
+		1580DA76213A73E3009A9E9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1580D984213A73E2009A9E9B /* LaunchScreen.storyboard */; };
+		1580DA77213A73E3009A9E9B /* step7.png in Resources */ = {isa = PBXBuildFile; fileRef = 1580D985213A73E2009A9E9B /* step7.png */; };
+		1580DA78213A73E3009A9E9B /* aeroplane.png in Resources */ = {isa = PBXBuildFile; fileRef = 1580D987213A73E2009A9E9B /* aeroplane.png */; };
+		1580DA79213A73E3009A9E9B /* newark_nj_1922.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1580D988213A73E2009A9E9B /* newark_nj_1922.jpg */; };
+		1580DA7A213A73E3009A9E9B /* botswana-large.png in Resources */ = {isa = PBXBuildFile; fileRef = 1580D989213A73E2009A9E9B /* botswana-large.png */; };
+		1580DA7B213A73E3009A9E9B /* step3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1580D98B213A73E2009A9E9B /* step3.png */; };
+		1580DA7C213A73E3009A9E9B /* step2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1580D98C213A73E2009A9E9B /* step2.png */; };
+		1580DA7D213A73E3009A9E9B /* popup_santa@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1580D98E213A73E2009A9E9B /* popup_santa@2x.png */; };
+		1580DA7E213A73E3009A9E9B /* glow-marker.png in Resources */ = {isa = PBXBuildFile; fileRef = 1580D990213A73E2009A9E9B /* glow-marker.png */; };
+		1580DA7F213A73E3009A9E9B /* step1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1580D991213A73E2009A9E9B /* step1.png */; };
+		1580DA80213A73E3009A9E9B /* step3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1580D993213A73E2009A9E9B /* step3@2x.png */; };
+		1580DA81213A73E3009A9E9B /* mapstyle-retro.json in Resources */ = {isa = PBXBuildFile; fileRef = 1580D994213A73E2009A9E9B /* mapstyle-retro.json */; };
+		1580DA82213A73E3009A9E9B /* australia.png in Resources */ = {isa = PBXBuildFile; fileRef = 1580D996213A73E2009A9E9B /* australia.png */; };
+		1580DA83213A73E3009A9E9B /* step7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1580D999213A73E2009A9E9B /* step7@2x.png */; };
+		1580DA84213A73E3009A9E9B /* arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1580D99A213A73E2009A9E9B /* arrow@2x.png */; };
+		1580DA85213A73E3009A9E9B /* glow-marker@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1580D99B213A73E2009A9E9B /* glow-marker@2x.png */; };
+		1580DA86213A73E3009A9E9B /* step5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1580D99E213A73E2009A9E9B /* step5@2x.png */; };
+		1580DA87213A73E3009A9E9B /* australia-large@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1580D99F213A73E2009A9E9B /* australia-large@2x.png */; };
+		1580DA88213A73E3009A9E9B /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 1580D9A0213A73E2009A9E9B /* arrow.png */; };
+		1580DA89213A73E3009A9E9B /* boat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1580D9A3213A73E2009A9E9B /* boat@2x.png */; };
+		1580DA8A213A73E3009A9E9B /* x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1580D9A6213A73E2009A9E9B /* x29@2x.png */; };
+		1580DA8B213A73E3009A9E9B /* spitfire.png in Resources */ = {isa = PBXBuildFile; fileRef = 1580D9A7213A73E2009A9E9B /* spitfire.png */; };
+		1580DA8C213A73E3009A9E9B /* h1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1580D9A8213A73E2009A9E9B /* h1@2x.png */; };
+		1580DA8D213A73E3009A9E9B /* spitfire@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1580D9A9213A73E2009A9E9B /* spitfire@2x.png */; };
+		1580DA8E213A73E3009A9E9B /* h1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1580D9AA213A73E2009A9E9B /* h1.png */; };
+		1580DA8F213A73E3009A9E9B /* voyager.png in Resources */ = {isa = PBXBuildFile; fileRef = 1580D9AB213A73E2009A9E9B /* voyager.png */; };
+		1580DA90213A73E3009A9E9B /* x29.png in Resources */ = {isa = PBXBuildFile; fileRef = 1580D9AC213A73E2009A9E9B /* x29.png */; };
+		1580DA91213A73E3009A9E9B /* voyager@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1580D9AD213A73E2009A9E9B /* voyager@2x.png */; };
+		1580DA92213A73E3009A9E9B /* bulgaria.png in Resources */ = {isa = PBXBuildFile; fileRef = 1580D9AE213A73E2009A9E9B /* bulgaria.png */; };
+		1580DA93213A73E3009A9E9B /* bulgaria-large.png in Resources */ = {isa = PBXBuildFile; fileRef = 1580D9AF213A73E2009A9E9B /* bulgaria-large.png */; };
+		1580DA94213A73E3009A9E9B /* argentina-large.png in Resources */ = {isa = PBXBuildFile; fileRef = 1580D9B1213A73E3009A9E9B /* argentina-large.png */; };
+		1580DA95213A73E3009A9E9B /* step2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1580D9B5213A73E3009A9E9B /* step2@2x.png */; };
+		1580DA96213A73E3009A9E9B /* popup_santa.png in Resources */ = {isa = PBXBuildFile; fileRef = 1580D9B7213A73E3009A9E9B /* popup_santa.png */; };
+		1580DA97213A73E3009A9E9B /* mapstyle-silver.json in Resources */ = {isa = PBXBuildFile; fileRef = 1580D9B9213A73E3009A9E9B /* mapstyle-silver.json */; };
+		1580DA98213A73E3009A9E9B /* step6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1580D9BA213A73E3009A9E9B /* step6@2x.png */; };
+		1580DA99213A73E3009A9E9B /* track.json in Resources */ = {isa = PBXBuildFile; fileRef = 1580D9BD213A73E3009A9E9B /* track.json */; };
+		1580DA9A213A73E3009A9E9B /* museum-exhibits.json in Resources */ = {isa = PBXBuildFile; fileRef = 1580D9C3213A73E3009A9E9B /* museum-exhibits.json */; };
+		1580DA9B213A73E3009A9E9B /* step8@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1580D9C4213A73E3009A9E9B /* step8@2x.png */; };
+		1580DA9C213A73E3009A9E9B /* step8.png in Resources */ = {isa = PBXBuildFile; fileRef = 1580D9C6213A73E3009A9E9B /* step8.png */; };
+		1580DA9D213A73E3009A9E9B /* australia-large.png in Resources */ = {isa = PBXBuildFile; fileRef = 1580D9C7213A73E3009A9E9B /* australia-large.png */; };
+		1580DA9E213A73E3009A9E9B /* botswana.png in Resources */ = {isa = PBXBuildFile; fileRef = 1580D9C9213A73E3009A9E9B /* botswana.png */; };
+		1580DA9F213A73E3009A9E9B /* step4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1580D9CA213A73E3009A9E9B /* step4@2x.png */; };
+		1580DAA0213A73E3009A9E9B /* DemoAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1580D9CB213A73E3009A9E9B /* DemoAppDelegate.h */; };
+		1580DAA1213A73E3009A9E9B /* MasterViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1580D9CC213A73E3009A9E9B /* MasterViewController.h */; };
+		1580DAA2213A73E3009A9E9B /* SDKDemoAPIKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 1580D9CD213A73E3009A9E9B /* SDKDemoAPIKey.h */; };
+		1580DAA3213A73E3009A9E9B /* MapTypesViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1580D9CF213A73E3009A9E9B /* MapTypesViewController.h */; };
+		1580DAA4213A73E3009A9E9B /* MapZoomViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1580D9D0213A73E3009A9E9B /* MapZoomViewController.h */; };
+		1580DAA5213A73E3009A9E9B /* PolygonsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1580D9D1213A73E3009A9E9B /* PolygonsViewController.m */; };
+		1580DAA6213A73E3009A9E9B /* AnimatedUIViewMarkerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1580D9D2213A73E3009A9E9B /* AnimatedUIViewMarkerViewController.m */; };
+		1580DAA7213A73E3009A9E9B /* MyLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1580D9D3213A73E3009A9E9B /* MyLocationViewController.m */; };
+		1580DAA8213A73E3009A9E9B /* FrameRateViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1580D9D4213A73E3009A9E9B /* FrameRateViewController.h */; };
+		1580DAA9213A73E3009A9E9B /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1580D9D5213A73E3009A9E9B /* CameraViewController.m */; };
+		1580DAAA213A73E3009A9E9B /* MarkerLayerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1580D9D6213A73E3009A9E9B /* MarkerLayerViewController.h */; };
+		1580DAAB213A73E3009A9E9B /* MapLayerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1580D9D7213A73E3009A9E9B /* MapLayerViewController.h */; };
+		1580DAAC213A73E3009A9E9B /* GeocoderViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1580D9D8213A73E3009A9E9B /* GeocoderViewController.h */; };
+		1580DAAD213A73E3009A9E9B /* IndoorViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1580D9D9213A73E3009A9E9B /* IndoorViewController.h */; };
+		1580DAAE213A73E3009A9E9B /* SnapshotReadyViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1580D9DA213A73E3009A9E9B /* SnapshotReadyViewController.h */; };
+		1580DAAF213A73E3009A9E9B /* CustomIndoorViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1580D9DB213A73E3009A9E9B /* CustomIndoorViewController.h */; };
+		1580DAB0213A73E3009A9E9B /* BasicMapViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1580D9DC213A73E3009A9E9B /* BasicMapViewController.h */; };
+		1580DAB1213A73E3009A9E9B /* FixedPanoramaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1580D9DD213A73E3009A9E9B /* FixedPanoramaViewController.m */; };
+		1580DAB2213A73E3009A9E9B /* AnimatedCurrentLocationViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1580D9DE213A73E3009A9E9B /* AnimatedCurrentLocationViewController.h */; };
+		1580DAB3213A73E3009A9E9B /* VisibleRegionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1580D9DF213A73E3009A9E9B /* VisibleRegionViewController.m */; };
+		1580DAB4213A73E3009A9E9B /* StructuredGeocoderViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1580D9E0213A73E3009A9E9B /* StructuredGeocoderViewController.h */; };
+		1580DAB5213A73E3009A9E9B /* CustomMarkersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1580D9E1213A73E3009A9E9B /* CustomMarkersViewController.m */; };
+		1580DAB6213A73E3009A9E9B /* GestureControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1580D9E2213A73E3009A9E9B /* GestureControlViewController.m */; };
+		1580DAB7213A73E3009A9E9B /* StyledMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1580D9E3213A73E3009A9E9B /* StyledMapViewController.m */; };
+		1580DAB8213A73E3009A9E9B /* MarkerInfoWindowViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1580D9E4213A73E3009A9E9B /* MarkerInfoWindowViewController.h */; };
+		1580DAB9213A73E3009A9E9B /* IndoorMuseumNavigationViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1580D9E5213A73E3009A9E9B /* IndoorMuseumNavigationViewController.h */; };
+		1580DABA213A73E3009A9E9B /* PolylinesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1580D9E6213A73E3009A9E9B /* PolylinesViewController.m */; };
+		1580DABB213A73E3009A9E9B /* TileLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1580D9E7213A73E3009A9E9B /* TileLayerViewController.m */; };
+		1580DABC213A73E3009A9E9B /* MarkerEventsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1580D9E8213A73E3009A9E9B /* MarkerEventsViewController.h */; };
+		1580DABD213A73E3009A9E9B /* Samples.m in Sources */ = {isa = PBXBuildFile; fileRef = 1580D9E9213A73E3009A9E9B /* Samples.m */; };
+		1580DABE213A73E3009A9E9B /* PanoramaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1580D9EA213A73E3009A9E9B /* PanoramaViewController.m */; };
+		1580DABF213A73E3009A9E9B /* PaddingBehaviorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1580D9EB213A73E3009A9E9B /* PaddingBehaviorViewController.m */; };
+		1580DAC0213A73E3009A9E9B /* MarkersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1580D9EC213A73E3009A9E9B /* MarkersViewController.m */; };
+		1580DAC1213A73E3009A9E9B /* GroundOverlayViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1580D9ED213A73E3009A9E9B /* GroundOverlayViewController.h */; };
+		1580DAC2213A73E3009A9E9B /* DoubleMapViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1580D9EE213A73E3009A9E9B /* DoubleMapViewController.h */; };
+		1580DAC3213A73E3009A9E9B /* GradientPolylinesViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1580D9EF213A73E3009A9E9B /* GradientPolylinesViewController.h */; };
+		1580DAC4213A73E3009A9E9B /* FitBoundsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1580D9F0213A73E3009A9E9B /* FitBoundsViewController.h */; };
+		1580DAC5213A73E3009A9E9B /* TrafficMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1580D9F1213A73E3009A9E9B /* TrafficMapViewController.m */; };
+		1580DAC6213A73E3009A9E9B /* IndoorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1580D9F2213A73E3009A9E9B /* IndoorViewController.m */; };
+		1580DAC7213A73E3009A9E9B /* GeocoderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1580D9F3213A73E3009A9E9B /* GeocoderViewController.m */; };
+		1580DAC8213A73E3009A9E9B /* MapLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1580D9F4213A73E3009A9E9B /* MapLayerViewController.m */; };
+		1580DAC9213A73E3009A9E9B /* MarkerLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1580D9F5213A73E3009A9E9B /* MarkerLayerViewController.m */; };
+		1580DACA213A73E3009A9E9B /* CameraViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1580D9F6213A73E3009A9E9B /* CameraViewController.h */; };
+		1580DACB213A73E3009A9E9B /* FrameRateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1580D9F7213A73E3009A9E9B /* FrameRateViewController.m */; };
+		1580DACC213A73E3009A9E9B /* MyLocationViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1580D9F8213A73E3009A9E9B /* MyLocationViewController.h */; };
+		1580DACD213A73E3009A9E9B /* PolygonsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1580D9F9213A73E3009A9E9B /* PolygonsViewController.h */; };
+		1580DACE213A73E3009A9E9B /* AnimatedUIViewMarkerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1580D9FA213A73E3009A9E9B /* AnimatedUIViewMarkerViewController.h */; };
+		1580DACF213A73E3009A9E9B /* MapZoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1580D9FB213A73E3009A9E9B /* MapZoomViewController.m */; };
+		1580DAD0213A73E3009A9E9B /* MapTypesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1580D9FC213A73E3009A9E9B /* MapTypesViewController.m */; };
+		1580DAD1213A73E3009A9E9B /* StructuredGeocoderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1580D9FD213A73E3009A9E9B /* StructuredGeocoderViewController.m */; };
+		1580DAD2213A73E3009A9E9B /* VisibleRegionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1580D9FE213A73E3009A9E9B /* VisibleRegionViewController.h */; };
+		1580DAD3213A73E3009A9E9B /* AnimatedCurrentLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1580D9FF213A73E3009A9E9B /* AnimatedCurrentLocationViewController.m */; };
+		1580DAD4213A73E3009A9E9B /* FixedPanoramaViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1580DA00213A73E3009A9E9B /* FixedPanoramaViewController.h */; };
+		1580DAD5213A73E3009A9E9B /* CustomIndoorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1580DA01213A73E3009A9E9B /* CustomIndoorViewController.m */; };
+		1580DAD6213A73E3009A9E9B /* BasicMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1580DA02213A73E3009A9E9B /* BasicMapViewController.m */; };
+		1580DAD7213A73E3009A9E9B /* SnapshotReadyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1580DA03213A73E3009A9E9B /* SnapshotReadyViewController.m */; };
+		1580DAD8213A73E3009A9E9B /* MarkerEventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1580DA04213A73E3009A9E9B /* MarkerEventsViewController.m */; };
+		1580DAD9213A73E3009A9E9B /* PolylinesViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1580DA05213A73E3009A9E9B /* PolylinesViewController.h */; };
+		1580DADA213A73E3009A9E9B /* TileLayerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1580DA06213A73E3009A9E9B /* TileLayerViewController.h */; };
+		1580DADB213A73E3009A9E9B /* IndoorMuseumNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1580DA07213A73E3009A9E9B /* IndoorMuseumNavigationViewController.m */; };
+		1580DADC213A73E3009A9E9B /* GestureControlViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1580DA08213A73E3009A9E9B /* GestureControlViewController.h */; };
+		1580DADD213A73E3009A9E9B /* MarkerInfoWindowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1580DA09213A73E3009A9E9B /* MarkerInfoWindowViewController.m */; };
+		1580DADE213A73E3009A9E9B /* StyledMapViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1580DA0A213A73E3009A9E9B /* StyledMapViewController.h */; };
+		1580DADF213A73E3009A9E9B /* CustomMarkersViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1580DA0B213A73E3009A9E9B /* CustomMarkersViewController.h */; };
+		1580DAE0213A73E3009A9E9B /* FitBoundsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1580DA0C213A73E3009A9E9B /* FitBoundsViewController.m */; };
+		1580DAE1213A73E3009A9E9B /* TrafficMapViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1580DA0D213A73E3009A9E9B /* TrafficMapViewController.h */; };
+		1580DAE2213A73E3009A9E9B /* GradientPolylinesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1580DA0E213A73E3009A9E9B /* GradientPolylinesViewController.m */; };
+		1580DAE3213A73E3009A9E9B /* DoubleMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1580DA0F213A73E3009A9E9B /* DoubleMapViewController.m */; };
+		1580DAE4213A73E3009A9E9B /* MarkersViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1580DA10213A73E3009A9E9B /* MarkersViewController.h */; };
+		1580DAE5213A73E3009A9E9B /* PaddingBehaviorViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1580DA11213A73E3009A9E9B /* PaddingBehaviorViewController.h */; };
+		1580DAE6213A73E3009A9E9B /* GroundOverlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1580DA12213A73E3009A9E9B /* GroundOverlayViewController.m */; };
+		1580DAE7213A73E3009A9E9B /* PanoramaViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1580DA13213A73E3009A9E9B /* PanoramaViewController.h */; };
+		1580DAE8213A73E3009A9E9B /* Samples.h in Headers */ = {isa = PBXBuildFile; fileRef = 1580DA14213A73E3009A9E9B /* Samples.h */; };
+		1580DAE9213A73E3009A9E9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1580DA15213A73E3009A9E9B /* main.m */; };
+		1580DAEA213A73E3009A9E9B /* MapsDemoAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1580DA16213A73E3009A9E9B /* MapsDemoAssets.xcassets */; };
+		1580DAEB213A73E3009A9E9B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1580DA17213A73E3009A9E9B /* Info.plist */; };
+		1580DAEC213A73E3009A9E9B /* DemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1580DA18213A73E3009A9E9B /* DemoAppDelegate.m */; };
+		1580DAED213A73E3009A9E9B /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1580DA19213A73E3009A9E9B /* MasterViewController.m */; };
+		1580DAEE213A73E3009A9E9B /* README.GoogleMapsDemos in Resources */ = {isa = PBXBuildFile; fileRef = 1580DA1A213A73E3009A9E9B /* README.GoogleMapsDemos */; };
+		1580DAEF213A73E3009A9E9B /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 1580DA1B213A73E3009A9E9B /* Podfile */; };
+		1580DAF0213A73E3009A9E9B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1580DA1C213A73E3009A9E9B /* README.md */; };
+		1580DAF1213A73E3009A9E9B /* GoogleMapsBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1580DA1F213A73E3009A9E9B /* GoogleMapsBase.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +231,27 @@
 			proxyType = 1;
 			remoteGlobalIDString = 1580D653213A6D99009A9E9B;
 			remoteInfo = "GoogleMapsPlacesSDK-Framework";
+		};
+		1580D90E213A73D9009A9E9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1580D8B1213A73D9009A9E9B /* GooglePlacesDemos.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 16C539680ABA55CA7AFC3002;
+			remoteInfo = GooglePlacesDemos;
+		};
+		1580D967213A73DA009A9E9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1580D914213A73DA009A9E9B /* GooglePlacePickerDemos.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A13A917B66F5513FDF0FB31C;
+			remoteInfo = GooglePlacePickerDemos;
+		};
+		1580DA21213A73E3009A9E9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1580D970213A73E2009A9E9B /* GoogleMapsDemos.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 658307DB8F671E9CA0B1A2E6;
+			remoteInfo = GoogleMapsDemos;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -56,10 +280,331 @@
 		1580D654213A6D99009A9E9B /* GoogleMapsPlacesSDK_Framework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GoogleMapsPlacesSDK_Framework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1580D656213A6D99009A9E9B /* GoogleMapsPlacesSDK_Framework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoogleMapsPlacesSDK_Framework.h; sourceTree = "<group>"; };
 		1580D657213A6D99009A9E9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1580D662213A6E26009A9E9B /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMapsCore.framework; sourceTree = "<group>"; };
-		1580D663213A6E28009A9E9B /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
-		1580D666213A6E51009A9E9B /* GooglePlacePicker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GooglePlacePicker.framework; sourceTree = "<group>"; };
-		1580D668213A6E66009A9E9B /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GooglePlaces.framework; sourceTree = "<group>"; };
+		1580D8AF213A73D9009A9E9B /* CHANGELOG */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGELOG; sourceTree = "<group>"; };
+		1580D8B1213A73D9009A9E9B /* GooglePlacesDemos.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = GooglePlacesDemos.xcodeproj; sourceTree = "<group>"; };
+		1580D8B5213A73D9009A9E9B /* DemoData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoData.m; sourceTree = "<group>"; };
+		1580D8B6213A73D9009A9E9B /* DemoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoListViewController.m; sourceTree = "<group>"; };
+		1580D8B9213A73D9009A9E9B /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D8BA213A73D9009A9E9B /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D8BB213A73D9009A9E9B /* en_AU */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en_AU; path = en_AU.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D8BC213A73D9009A9E9B /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D8BD213A73D9009A9E9B /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D8BE213A73D9009A9E9B /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D8BF213A73D9009A9E9B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D8C0213A73D9009A9E9B /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D8C1213A73D9009A9E9B /* es_419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es_419; path = es_419.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D8C2213A73D9009A9E9B /* es_MX */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es_MX; path = es_MX.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D8C3213A73D9009A9E9B /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh_CN; path = zh_CN.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D8C4213A73D9009A9E9B /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D8C5213A73D9009A9E9B /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D8C6213A73D9009A9E9B /* pt_BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt_BR; path = pt_BR.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D8C7213A73D9009A9E9B /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D8C8213A73D9009A9E9B /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D8C9213A73D9009A9E9B /* sk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sk; path = sk.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D8CA213A73D9009A9E9B /* pt_PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt_PT; path = pt_PT.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D8CB213A73D9009A9E9B /* ms */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ms; path = ms.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D8CC213A73D9009A9E9B /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D8CD213A73D9009A9E9B /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D8CE213A73D9009A9E9B /* en_IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en_IN; path = en_IN.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D8CF213A73D9009A9E9B /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D8D1213A73D9009A9E9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1580D8D2213A73D9009A9E9B /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hu; path = hu.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D8D3213A73D9009A9E9B /* zh_HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh_HK; path = zh_HK.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D8D4213A73D9009A9E9B /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D8D5213A73D9009A9E9B /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D8D6213A73D9009A9E9B /* zh_TW */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh_TW; path = zh_TW.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D8D7213A73D9009A9E9B /* en_GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en_GB; path = en_GB.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D8D8213A73D9009A9E9B /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D8D9213A73D9009A9E9B /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D8DA213A73D9009A9E9B /* fr_CA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr_CA; path = fr_CA.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D8DB213A73D9009A9E9B /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D8DC213A73D9009A9E9B /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D8DD213A73D9009A9E9B /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D8DE213A73D9009A9E9B /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D8DF213A73D9009A9E9B /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D8E0213A73D9009A9E9B /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D8E1213A73D9009A9E9B /* ro */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ro; path = ro.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D8E2213A73D9009A9E9B /* PlacesDemoAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = PlacesDemoAssets.xcassets; sourceTree = "<group>"; };
+		1580D8E3213A73D9009A9E9B /* hr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hr; path = hr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D8E4213A73D9009A9E9B /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D8E5213A73D9009A9E9B /* ca */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ca; path = ca.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D8E6213A73D9009A9E9B /* DemoAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoAppDelegate.h; sourceTree = "<group>"; };
+		1580D8E7213A73D9009A9E9B /* SDKDemoAPIKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDKDemoAPIKey.h; sourceTree = "<group>"; };
+		1580D8E9213A73D9009A9E9B /* PlacePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlacePickerViewController.m; sourceTree = "<group>"; };
+		1580D8EA213A73D9009A9E9B /* PhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotosViewController.m; sourceTree = "<group>"; };
+		1580D8EC213A73D9009A9E9B /* AutocompleteWithSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutocompleteWithSearchViewController.m; sourceTree = "<group>"; };
+		1580D8ED213A73D9009A9E9B /* AutocompleteBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutocompleteBaseViewController.h; sourceTree = "<group>"; };
+		1580D8EE213A73D9009A9E9B /* AutocompleteWithSearchDisplayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutocompleteWithSearchDisplayController.h; sourceTree = "<group>"; };
+		1580D8EF213A73D9009A9E9B /* AutocompletePushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutocompletePushViewController.h; sourceTree = "<group>"; };
+		1580D8F0213A73D9009A9E9B /* AutocompleteModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutocompleteModalViewController.h; sourceTree = "<group>"; };
+		1580D8F1213A73D9009A9E9B /* AutocompleteWithCustomColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutocompleteWithCustomColors.h; sourceTree = "<group>"; };
+		1580D8F2213A73D9009A9E9B /* AutocompleteWithTextFieldController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutocompleteWithTextFieldController.h; sourceTree = "<group>"; };
+		1580D8F3213A73D9009A9E9B /* AutocompleteWithSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutocompleteWithSearchViewController.h; sourceTree = "<group>"; };
+		1580D8F4213A73D9009A9E9B /* AutocompleteWithSearchDisplayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutocompleteWithSearchDisplayController.m; sourceTree = "<group>"; };
+		1580D8F5213A73D9009A9E9B /* AutocompletePushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutocompletePushViewController.m; sourceTree = "<group>"; };
+		1580D8F6213A73D9009A9E9B /* AutocompleteBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutocompleteBaseViewController.m; sourceTree = "<group>"; };
+		1580D8F7213A73D9009A9E9B /* AutocompleteWithTextFieldController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutocompleteWithTextFieldController.m; sourceTree = "<group>"; };
+		1580D8F8213A73D9009A9E9B /* AutocompleteWithCustomColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutocompleteWithCustomColors.m; sourceTree = "<group>"; };
+		1580D8F9213A73D9009A9E9B /* AutocompleteModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutocompleteModalViewController.m; sourceTree = "<group>"; };
+		1580D8FA213A73D9009A9E9B /* PagingPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PagingPhotoView.m; sourceTree = "<group>"; };
+		1580D8FB213A73D9009A9E9B /* PlacePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlacePickerViewController.h; sourceTree = "<group>"; };
+		1580D8FC213A73D9009A9E9B /* PhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotosViewController.h; sourceTree = "<group>"; };
+		1580D8FD213A73D9009A9E9B /* PagingPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PagingPhotoView.h; sourceTree = "<group>"; };
+		1580D8FE213A73D9009A9E9B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1580D900213A73D9009A9E9B /* BaseDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseDemoViewController.h; sourceTree = "<group>"; };
+		1580D901213A73D9009A9E9B /* MainSplitViewControllerBehaviorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainSplitViewControllerBehaviorManager.h; sourceTree = "<group>"; };
+		1580D902213A73D9009A9E9B /* BaseDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseDemoViewController.m; sourceTree = "<group>"; };
+		1580D903213A73D9009A9E9B /* MainSplitViewControllerBehaviorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainSplitViewControllerBehaviorManager.m; sourceTree = "<group>"; };
+		1580D904213A73D9009A9E9B /* DemoData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoData.h; sourceTree = "<group>"; };
+		1580D905213A73D9009A9E9B /* DemoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoListViewController.h; sourceTree = "<group>"; };
+		1580D906213A73D9009A9E9B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1580D907213A73D9009A9E9B /* DemoAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoAppDelegate.m; sourceTree = "<group>"; };
+		1580D908213A73D9009A9E9B /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		1580D909213A73D9009A9E9B /* README.GooglePlacesDemos */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.GooglePlacesDemos; sourceTree = "<group>"; };
+		1580D90A213A73D9009A9E9B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1580D90C213A73D9009A9E9B /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GooglePlaces.framework; sourceTree = "<group>"; };
+		1580D911213A73DA009A9E9B /* CHANGELOG */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGELOG; sourceTree = "<group>"; };
+		1580D913213A73DA009A9E9B /* README.GooglePlacePickerDemos */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.GooglePlacePickerDemos; sourceTree = "<group>"; };
+		1580D914213A73DA009A9E9B /* GooglePlacePickerDemos.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = GooglePlacePickerDemos.xcodeproj; sourceTree = "<group>"; };
+		1580D917213A73DA009A9E9B /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		1580D919213A73DA009A9E9B /* Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		1580D91C213A73DA009A9E9B /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D91D213A73DA009A9E9B /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D91E213A73DA009A9E9B /* en_AU */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en_AU; path = en_AU.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D91F213A73DA009A9E9B /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D920213A73DA009A9E9B /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D921213A73DA009A9E9B /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D922213A73DA009A9E9B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D923213A73DA009A9E9B /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D924213A73DA009A9E9B /* es_419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es_419; path = es_419.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D925213A73DA009A9E9B /* es_MX */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es_MX; path = es_MX.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D926213A73DA009A9E9B /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh_CN; path = zh_CN.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D927213A73DA009A9E9B /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D928213A73DA009A9E9B /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D929213A73DA009A9E9B /* pt_BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt_BR; path = pt_BR.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D92A213A73DA009A9E9B /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D92B213A73DA009A9E9B /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D92C213A73DA009A9E9B /* sk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sk; path = sk.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D92D213A73DA009A9E9B /* pt_PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt_PT; path = pt_PT.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D92E213A73DA009A9E9B /* ms */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ms; path = ms.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D92F213A73DA009A9E9B /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D930213A73DA009A9E9B /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D931213A73DA009A9E9B /* en_IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en_IN; path = en_IN.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D932213A73DA009A9E9B /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D934213A73DA009A9E9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1580D935213A73DA009A9E9B /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hu; path = hu.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D936213A73DA009A9E9B /* zh_HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh_HK; path = zh_HK.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D937213A73DA009A9E9B /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D938213A73DA009A9E9B /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D939213A73DA009A9E9B /* zh_TW */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh_TW; path = zh_TW.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D93A213A73DA009A9E9B /* en_GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en_GB; path = en_GB.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D93B213A73DA009A9E9B /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D93C213A73DA009A9E9B /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D93D213A73DA009A9E9B /* fr_CA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr_CA; path = fr_CA.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D93E213A73DA009A9E9B /* PlacePickerDemoAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = PlacePickerDemoAssets.xcassets; sourceTree = "<group>"; };
+		1580D93F213A73DA009A9E9B /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D940213A73DA009A9E9B /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D941213A73DA009A9E9B /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D942213A73DA009A9E9B /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D943213A73DA009A9E9B /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D944213A73DA009A9E9B /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D945213A73DA009A9E9B /* ro */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ro; path = ro.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D946213A73DA009A9E9B /* hr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hr; path = hr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D947213A73DA009A9E9B /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D948213A73DA009A9E9B /* ca */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ca; path = ca.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1580D949213A73DA009A9E9B /* ShadowLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowLineView.swift; sourceTree = "<group>"; };
+		1580D94C213A73DA009A9E9B /* PickAPlaceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PickAPlaceViewController.xib; sourceTree = "<group>"; };
+		1580D94D213A73DA009A9E9B /* PickAPlaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickAPlaceViewController.swift; sourceTree = "<group>"; };
+		1580D94F213A73DA009A9E9B /* PlaceAttributeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlaceAttributeCell.xib; sourceTree = "<group>"; };
+		1580D950213A73DA009A9E9B /* PlaceDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlaceDetailViewController.xib; sourceTree = "<group>"; };
+		1580D951213A73DA009A9E9B /* PlaceAttributeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceAttributeCell.swift; sourceTree = "<group>"; };
+		1580D952213A73DA009A9E9B /* PlaceNameHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceNameHeader.swift; sourceTree = "<group>"; };
+		1580D953213A73DA009A9E9B /* PlaceDetailTableViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceDetailTableViewDataSource.swift; sourceTree = "<group>"; };
+		1580D954213A73DA009A9E9B /* PlaceNameHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlaceNameHeader.xib; sourceTree = "<group>"; };
+		1580D955213A73DA009A9E9B /* PlaceDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceDetailViewController.swift; sourceTree = "<group>"; };
+		1580D957213A73DA009A9E9B /* BackgroundMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundMapViewController.swift; sourceTree = "<group>"; };
+		1580D958213A73DA009A9E9B /* InsetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsetViewController.swift; sourceTree = "<group>"; };
+		1580D959213A73DA009A9E9B /* SplitPaneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitPaneViewController.swift; sourceTree = "<group>"; };
+		1580D95A213A73DA009A9E9B /* BaseContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseContainerViewController.swift; sourceTree = "<group>"; };
+		1580D95C213A73DA009A9E9B /* NotificationObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationObserver.swift; sourceTree = "<group>"; };
+		1580D95D213A73DA009A9E9B /* CGRect+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGRect+Extensions.swift"; sourceTree = "<group>"; };
+		1580D95E213A73DA009A9E9B /* ShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		1580D95F213A73DA009A9E9B /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1580D960213A73DA009A9E9B /* SDKDemoAPIKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDKDemoAPIKey.swift; sourceTree = "<group>"; };
+		1580D961213A73DA009A9E9B /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		1580D962213A73DA009A9E9B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1580D963213A73DA009A9E9B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1580D965213A73DA009A9E9B /* GooglePlacePicker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GooglePlacePicker.framework; sourceTree = "<group>"; };
+		1580D96C213A73E2009A9E9B /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMapsCore.framework; sourceTree = "<group>"; };
+		1580D96D213A73E2009A9E9B /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		1580D96E213A73E2009A9E9B /* CHANGELOG */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGELOG; sourceTree = "<group>"; };
+		1580D970213A73E2009A9E9B /* GoogleMapsDemos.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = GoogleMapsDemos.xcodeproj; sourceTree = "<group>"; };
+		1580D976213A73E2009A9E9B /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1580D977213A73E2009A9E9B /* step5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step5.png; sourceTree = "<group>"; };
+		1580D978213A73E2009A9E9B /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1580D979213A73E2009A9E9B /* step1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "step1@2x.png"; sourceTree = "<group>"; };
+		1580D97A213A73E2009A9E9B /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1580D97B213A73E2009A9E9B /* step4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step4.png; sourceTree = "<group>"; };
+		1580D97C213A73E2009A9E9B /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1580D97D213A73E2009A9E9B /* argentina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = argentina.png; sourceTree = "<group>"; };
+		1580D97E213A73E2009A9E9B /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1580D97F213A73E2009A9E9B /* boat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boat.png; sourceTree = "<group>"; };
+		1580D980213A73E2009A9E9B /* aeroplane@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aeroplane@2x.png"; sourceTree = "<group>"; };
+		1580D981213A73E2009A9E9B /* step6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step6.png; sourceTree = "<group>"; };
+		1580D982213A73E2009A9E9B /* mapstyle-night.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "mapstyle-night.json"; sourceTree = "<group>"; };
+		1580D983213A73E2009A9E9B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1580D984213A73E2009A9E9B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1580D985213A73E2009A9E9B /* step7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step7.png; sourceTree = "<group>"; };
+		1580D986213A73E2009A9E9B /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1580D987213A73E2009A9E9B /* aeroplane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aeroplane.png; sourceTree = "<group>"; };
+		1580D988213A73E2009A9E9B /* newark_nj_1922.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = newark_nj_1922.jpg; sourceTree = "<group>"; };
+		1580D989213A73E2009A9E9B /* botswana-large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "botswana-large.png"; sourceTree = "<group>"; };
+		1580D98A213A73E2009A9E9B /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh_CN; path = zh_CN.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1580D98B213A73E2009A9E9B /* step3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step3.png; sourceTree = "<group>"; };
+		1580D98C213A73E2009A9E9B /* step2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step2.png; sourceTree = "<group>"; };
+		1580D98D213A73E2009A9E9B /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1580D98E213A73E2009A9E9B /* popup_santa@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popup_santa@2x.png"; sourceTree = "<group>"; };
+		1580D98F213A73E2009A9E9B /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1580D990213A73E2009A9E9B /* glow-marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glow-marker.png"; sourceTree = "<group>"; };
+		1580D991213A73E2009A9E9B /* step1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step1.png; sourceTree = "<group>"; };
+		1580D992213A73E2009A9E9B /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1580D993213A73E2009A9E9B /* step3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "step3@2x.png"; sourceTree = "<group>"; };
+		1580D994213A73E2009A9E9B /* mapstyle-retro.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "mapstyle-retro.json"; sourceTree = "<group>"; };
+		1580D995213A73E2009A9E9B /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1580D996213A73E2009A9E9B /* australia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = australia.png; sourceTree = "<group>"; };
+		1580D997213A73E2009A9E9B /* sk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sk; path = sk.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1580D998213A73E2009A9E9B /* pt_PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt_PT; path = pt_PT.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1580D999213A73E2009A9E9B /* step7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "step7@2x.png"; sourceTree = "<group>"; };
+		1580D99A213A73E2009A9E9B /* arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow@2x.png"; sourceTree = "<group>"; };
+		1580D99B213A73E2009A9E9B /* glow-marker@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glow-marker@2x.png"; sourceTree = "<group>"; };
+		1580D99C213A73E2009A9E9B /* ms */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ms; path = ms.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1580D99D213A73E2009A9E9B /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1580D99E213A73E2009A9E9B /* step5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "step5@2x.png"; sourceTree = "<group>"; };
+		1580D99F213A73E2009A9E9B /* australia-large@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "australia-large@2x.png"; sourceTree = "<group>"; };
+		1580D9A0213A73E2009A9E9B /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		1580D9A1213A73E2009A9E9B /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1580D9A2213A73E2009A9E9B /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1580D9A3213A73E2009A9E9B /* boat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "boat@2x.png"; sourceTree = "<group>"; };
+		1580D9A4213A73E2009A9E9B /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hu; path = hu.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1580D9A6213A73E2009A9E9B /* x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "x29@2x.png"; sourceTree = "<group>"; };
+		1580D9A7213A73E2009A9E9B /* spitfire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spitfire.png; sourceTree = "<group>"; };
+		1580D9A8213A73E2009A9E9B /* h1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "h1@2x.png"; sourceTree = "<group>"; };
+		1580D9A9213A73E2009A9E9B /* spitfire@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spitfire@2x.png"; sourceTree = "<group>"; };
+		1580D9AA213A73E2009A9E9B /* h1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = h1.png; sourceTree = "<group>"; };
+		1580D9AB213A73E2009A9E9B /* voyager.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voyager.png; sourceTree = "<group>"; };
+		1580D9AC213A73E2009A9E9B /* x29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x29.png; sourceTree = "<group>"; };
+		1580D9AD213A73E2009A9E9B /* voyager@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voyager@2x.png"; sourceTree = "<group>"; };
+		1580D9AE213A73E2009A9E9B /* bulgaria.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bulgaria.png; sourceTree = "<group>"; };
+		1580D9AF213A73E2009A9E9B /* bulgaria-large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bulgaria-large.png"; sourceTree = "<group>"; };
+		1580D9B0213A73E3009A9E9B /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1580D9B1213A73E3009A9E9B /* argentina-large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "argentina-large.png"; sourceTree = "<group>"; };
+		1580D9B2213A73E3009A9E9B /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1580D9B3213A73E3009A9E9B /* zh_TW */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh_TW; path = zh_TW.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1580D9B4213A73E3009A9E9B /* en_GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en_GB; path = en_GB.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1580D9B5213A73E3009A9E9B /* step2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "step2@2x.png"; sourceTree = "<group>"; };
+		1580D9B6213A73E3009A9E9B /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1580D9B7213A73E3009A9E9B /* popup_santa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popup_santa.png; sourceTree = "<group>"; };
+		1580D9B8213A73E3009A9E9B /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1580D9B9213A73E3009A9E9B /* mapstyle-silver.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "mapstyle-silver.json"; sourceTree = "<group>"; };
+		1580D9BA213A73E3009A9E9B /* step6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "step6@2x.png"; sourceTree = "<group>"; };
+		1580D9BB213A73E3009A9E9B /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1580D9BC213A73E3009A9E9B /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1580D9BD213A73E3009A9E9B /* track.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = track.json; sourceTree = "<group>"; };
+		1580D9BE213A73E3009A9E9B /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1580D9BF213A73E3009A9E9B /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1580D9C0213A73E3009A9E9B /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1580D9C1213A73E3009A9E9B /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1580D9C2213A73E3009A9E9B /* ro */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ro; path = ro.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1580D9C3213A73E3009A9E9B /* museum-exhibits.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "museum-exhibits.json"; sourceTree = "<group>"; };
+		1580D9C4213A73E3009A9E9B /* step8@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "step8@2x.png"; sourceTree = "<group>"; };
+		1580D9C5213A73E3009A9E9B /* hr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hr; path = hr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1580D9C6213A73E3009A9E9B /* step8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step8.png; sourceTree = "<group>"; };
+		1580D9C7213A73E3009A9E9B /* australia-large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "australia-large.png"; sourceTree = "<group>"; };
+		1580D9C8213A73E3009A9E9B /* ca */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ca; path = ca.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1580D9C9213A73E3009A9E9B /* botswana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = botswana.png; sourceTree = "<group>"; };
+		1580D9CA213A73E3009A9E9B /* step4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "step4@2x.png"; sourceTree = "<group>"; };
+		1580D9CB213A73E3009A9E9B /* DemoAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoAppDelegate.h; sourceTree = "<group>"; };
+		1580D9CC213A73E3009A9E9B /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		1580D9CD213A73E3009A9E9B /* SDKDemoAPIKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDKDemoAPIKey.h; sourceTree = "<group>"; };
+		1580D9CF213A73E3009A9E9B /* MapTypesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapTypesViewController.h; sourceTree = "<group>"; };
+		1580D9D0213A73E3009A9E9B /* MapZoomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapZoomViewController.h; sourceTree = "<group>"; };
+		1580D9D1213A73E3009A9E9B /* PolygonsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PolygonsViewController.m; sourceTree = "<group>"; };
+		1580D9D2213A73E3009A9E9B /* AnimatedUIViewMarkerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimatedUIViewMarkerViewController.m; sourceTree = "<group>"; };
+		1580D9D3213A73E3009A9E9B /* MyLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLocationViewController.m; sourceTree = "<group>"; };
+		1580D9D4213A73E3009A9E9B /* FrameRateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrameRateViewController.h; sourceTree = "<group>"; };
+		1580D9D5213A73E3009A9E9B /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+		1580D9D6213A73E3009A9E9B /* MarkerLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkerLayerViewController.h; sourceTree = "<group>"; };
+		1580D9D7213A73E3009A9E9B /* MapLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapLayerViewController.h; sourceTree = "<group>"; };
+		1580D9D8213A73E3009A9E9B /* GeocoderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeocoderViewController.h; sourceTree = "<group>"; };
+		1580D9D9213A73E3009A9E9B /* IndoorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndoorViewController.h; sourceTree = "<group>"; };
+		1580D9DA213A73E3009A9E9B /* SnapshotReadyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnapshotReadyViewController.h; sourceTree = "<group>"; };
+		1580D9DB213A73E3009A9E9B /* CustomIndoorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomIndoorViewController.h; sourceTree = "<group>"; };
+		1580D9DC213A73E3009A9E9B /* BasicMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicMapViewController.h; sourceTree = "<group>"; };
+		1580D9DD213A73E3009A9E9B /* FixedPanoramaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FixedPanoramaViewController.m; sourceTree = "<group>"; };
+		1580D9DE213A73E3009A9E9B /* AnimatedCurrentLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimatedCurrentLocationViewController.h; sourceTree = "<group>"; };
+		1580D9DF213A73E3009A9E9B /* VisibleRegionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisibleRegionViewController.m; sourceTree = "<group>"; };
+		1580D9E0213A73E3009A9E9B /* StructuredGeocoderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StructuredGeocoderViewController.h; sourceTree = "<group>"; };
+		1580D9E1213A73E3009A9E9B /* CustomMarkersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomMarkersViewController.m; sourceTree = "<group>"; };
+		1580D9E2213A73E3009A9E9B /* GestureControlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GestureControlViewController.m; sourceTree = "<group>"; };
+		1580D9E3213A73E3009A9E9B /* StyledMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StyledMapViewController.m; sourceTree = "<group>"; };
+		1580D9E4213A73E3009A9E9B /* MarkerInfoWindowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkerInfoWindowViewController.h; sourceTree = "<group>"; };
+		1580D9E5213A73E3009A9E9B /* IndoorMuseumNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndoorMuseumNavigationViewController.h; sourceTree = "<group>"; };
+		1580D9E6213A73E3009A9E9B /* PolylinesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PolylinesViewController.m; sourceTree = "<group>"; };
+		1580D9E7213A73E3009A9E9B /* TileLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TileLayerViewController.m; sourceTree = "<group>"; };
+		1580D9E8213A73E3009A9E9B /* MarkerEventsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkerEventsViewController.h; sourceTree = "<group>"; };
+		1580D9E9213A73E3009A9E9B /* Samples.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Samples.m; sourceTree = "<group>"; };
+		1580D9EA213A73E3009A9E9B /* PanoramaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanoramaViewController.m; sourceTree = "<group>"; };
+		1580D9EB213A73E3009A9E9B /* PaddingBehaviorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaddingBehaviorViewController.m; sourceTree = "<group>"; };
+		1580D9EC213A73E3009A9E9B /* MarkersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkersViewController.m; sourceTree = "<group>"; };
+		1580D9ED213A73E3009A9E9B /* GroundOverlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroundOverlayViewController.h; sourceTree = "<group>"; };
+		1580D9EE213A73E3009A9E9B /* DoubleMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoubleMapViewController.h; sourceTree = "<group>"; };
+		1580D9EF213A73E3009A9E9B /* GradientPolylinesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientPolylinesViewController.h; sourceTree = "<group>"; };
+		1580D9F0213A73E3009A9E9B /* FitBoundsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FitBoundsViewController.h; sourceTree = "<group>"; };
+		1580D9F1213A73E3009A9E9B /* TrafficMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrafficMapViewController.m; sourceTree = "<group>"; };
+		1580D9F2213A73E3009A9E9B /* IndoorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndoorViewController.m; sourceTree = "<group>"; };
+		1580D9F3213A73E3009A9E9B /* GeocoderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeocoderViewController.m; sourceTree = "<group>"; };
+		1580D9F4213A73E3009A9E9B /* MapLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapLayerViewController.m; sourceTree = "<group>"; };
+		1580D9F5213A73E3009A9E9B /* MarkerLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkerLayerViewController.m; sourceTree = "<group>"; };
+		1580D9F6213A73E3009A9E9B /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		1580D9F7213A73E3009A9E9B /* FrameRateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrameRateViewController.m; sourceTree = "<group>"; };
+		1580D9F8213A73E3009A9E9B /* MyLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLocationViewController.h; sourceTree = "<group>"; };
+		1580D9F9213A73E3009A9E9B /* PolygonsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PolygonsViewController.h; sourceTree = "<group>"; };
+		1580D9FA213A73E3009A9E9B /* AnimatedUIViewMarkerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimatedUIViewMarkerViewController.h; sourceTree = "<group>"; };
+		1580D9FB213A73E3009A9E9B /* MapZoomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapZoomViewController.m; sourceTree = "<group>"; };
+		1580D9FC213A73E3009A9E9B /* MapTypesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapTypesViewController.m; sourceTree = "<group>"; };
+		1580D9FD213A73E3009A9E9B /* StructuredGeocoderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StructuredGeocoderViewController.m; sourceTree = "<group>"; };
+		1580D9FE213A73E3009A9E9B /* VisibleRegionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisibleRegionViewController.h; sourceTree = "<group>"; };
+		1580D9FF213A73E3009A9E9B /* AnimatedCurrentLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimatedCurrentLocationViewController.m; sourceTree = "<group>"; };
+		1580DA00213A73E3009A9E9B /* FixedPanoramaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FixedPanoramaViewController.h; sourceTree = "<group>"; };
+		1580DA01213A73E3009A9E9B /* CustomIndoorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomIndoorViewController.m; sourceTree = "<group>"; };
+		1580DA02213A73E3009A9E9B /* BasicMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicMapViewController.m; sourceTree = "<group>"; };
+		1580DA03213A73E3009A9E9B /* SnapshotReadyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnapshotReadyViewController.m; sourceTree = "<group>"; };
+		1580DA04213A73E3009A9E9B /* MarkerEventsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkerEventsViewController.m; sourceTree = "<group>"; };
+		1580DA05213A73E3009A9E9B /* PolylinesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PolylinesViewController.h; sourceTree = "<group>"; };
+		1580DA06213A73E3009A9E9B /* TileLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TileLayerViewController.h; sourceTree = "<group>"; };
+		1580DA07213A73E3009A9E9B /* IndoorMuseumNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndoorMuseumNavigationViewController.m; sourceTree = "<group>"; };
+		1580DA08213A73E3009A9E9B /* GestureControlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureControlViewController.h; sourceTree = "<group>"; };
+		1580DA09213A73E3009A9E9B /* MarkerInfoWindowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkerInfoWindowViewController.m; sourceTree = "<group>"; };
+		1580DA0A213A73E3009A9E9B /* StyledMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StyledMapViewController.h; sourceTree = "<group>"; };
+		1580DA0B213A73E3009A9E9B /* CustomMarkersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomMarkersViewController.h; sourceTree = "<group>"; };
+		1580DA0C213A73E3009A9E9B /* FitBoundsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FitBoundsViewController.m; sourceTree = "<group>"; };
+		1580DA0D213A73E3009A9E9B /* TrafficMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrafficMapViewController.h; sourceTree = "<group>"; };
+		1580DA0E213A73E3009A9E9B /* GradientPolylinesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientPolylinesViewController.m; sourceTree = "<group>"; };
+		1580DA0F213A73E3009A9E9B /* DoubleMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoubleMapViewController.m; sourceTree = "<group>"; };
+		1580DA10213A73E3009A9E9B /* MarkersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkersViewController.h; sourceTree = "<group>"; };
+		1580DA11213A73E3009A9E9B /* PaddingBehaviorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaddingBehaviorViewController.h; sourceTree = "<group>"; };
+		1580DA12213A73E3009A9E9B /* GroundOverlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroundOverlayViewController.m; sourceTree = "<group>"; };
+		1580DA13213A73E3009A9E9B /* PanoramaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanoramaViewController.h; sourceTree = "<group>"; };
+		1580DA14213A73E3009A9E9B /* Samples.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Samples.h; sourceTree = "<group>"; };
+		1580DA15213A73E3009A9E9B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1580DA16213A73E3009A9E9B /* MapsDemoAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MapsDemoAssets.xcassets; sourceTree = "<group>"; };
+		1580DA17213A73E3009A9E9B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1580DA18213A73E3009A9E9B /* DemoAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoAppDelegate.m; sourceTree = "<group>"; };
+		1580DA19213A73E3009A9E9B /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		1580DA1A213A73E3009A9E9B /* README.GoogleMapsDemos */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.GoogleMapsDemos; sourceTree = "<group>"; };
+		1580DA1B213A73E3009A9E9B /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		1580DA1C213A73E3009A9E9B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1580DA1F213A73E3009A9E9B /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMapsBase.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,10 +620,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1580D665213A6E28009A9E9B /* GoogleMaps.framework in Frameworks */,
-				1580D667213A6E51009A9E9B /* GooglePlacePicker.framework in Frameworks */,
-				1580D664213A6E28009A9E9B /* GoogleMapsCore.framework in Frameworks */,
-				1580D669213A6E66009A9E9B /* GooglePlaces.framework in Frameworks */,
+				1580DAF1213A73E3009A9E9B /* GoogleMapsBase.framework in Frameworks */,
+				1580DA4B213A73E3009A9E9B /* GooglePlaces.framework in Frameworks */,
+				1580DA6A213A73E3009A9E9B /* GoogleMapsCore.framework in Frameworks */,
+				1580DA6B213A73E3009A9E9B /* GoogleMaps.framework in Frameworks */,
+				1580DA69213A73E3009A9E9B /* GooglePlacePicker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,10 +675,464 @@
 		1580D661213A6DA1009A9E9B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1580D668213A6E66009A9E9B /* GooglePlaces.framework */,
-				1580D666213A6E51009A9E9B /* GooglePlacePicker.framework */,
-				1580D663213A6E28009A9E9B /* GoogleMaps.framework */,
-				1580D662213A6E26009A9E9B /* GoogleMapsCore.framework */,
+				1580D969213A73E2009A9E9B /* GoogleMaps */,
+				1580D910213A73DA009A9E9B /* GooglePlacePicker */,
+				1580D8AE213A73D9009A9E9B /* GooglePlaces */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		1580D8AE213A73D9009A9E9B /* GooglePlaces */ = {
+			isa = PBXGroup;
+			children = (
+				1580D8AF213A73D9009A9E9B /* CHANGELOG */,
+				1580D8B0213A73D9009A9E9B /* Example */,
+				1580D90A213A73D9009A9E9B /* README.md */,
+				1580D90B213A73D9009A9E9B /* Frameworks */,
+			);
+			path = GooglePlaces;
+			sourceTree = "<group>";
+		};
+		1580D8B0213A73D9009A9E9B /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				1580D8B1213A73D9009A9E9B /* GooglePlacesDemos.xcodeproj */,
+				1580D8B4213A73D9009A9E9B /* GooglePlacesDemos */,
+				1580D908213A73D9009A9E9B /* Podfile */,
+				1580D909213A73D9009A9E9B /* README.GooglePlacesDemos */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		1580D8B2213A73D9009A9E9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1580D90F213A73D9009A9E9B /* GooglePlacesDemos.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1580D8B4213A73D9009A9E9B /* GooglePlacesDemos */ = {
+			isa = PBXGroup;
+			children = (
+				1580D8B5213A73D9009A9E9B /* DemoData.m */,
+				1580D8B6213A73D9009A9E9B /* DemoListViewController.m */,
+				1580D8B7213A73D9009A9E9B /* Resources */,
+				1580D8E6213A73D9009A9E9B /* DemoAppDelegate.h */,
+				1580D8E7213A73D9009A9E9B /* SDKDemoAPIKey.h */,
+				1580D8E8213A73D9009A9E9B /* Samples */,
+				1580D8FE213A73D9009A9E9B /* main.m */,
+				1580D8FF213A73D9009A9E9B /* Support */,
+				1580D904213A73D9009A9E9B /* DemoData.h */,
+				1580D905213A73D9009A9E9B /* DemoListViewController.h */,
+				1580D906213A73D9009A9E9B /* Info.plist */,
+				1580D907213A73D9009A9E9B /* DemoAppDelegate.m */,
+			);
+			path = GooglePlacesDemos;
+			sourceTree = "<group>";
+		};
+		1580D8B7213A73D9009A9E9B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1580D8B8213A73D9009A9E9B /* Localizable.strings */,
+				1580D8D0213A73D9009A9E9B /* LaunchScreen.storyboard */,
+				1580D8E2213A73D9009A9E9B /* PlacesDemoAssets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1580D8E8213A73D9009A9E9B /* Samples */ = {
+			isa = PBXGroup;
+			children = (
+				1580D8E9213A73D9009A9E9B /* PlacePickerViewController.m */,
+				1580D8EA213A73D9009A9E9B /* PhotosViewController.m */,
+				1580D8EB213A73D9009A9E9B /* Autocomplete */,
+				1580D8FA213A73D9009A9E9B /* PagingPhotoView.m */,
+				1580D8FB213A73D9009A9E9B /* PlacePickerViewController.h */,
+				1580D8FC213A73D9009A9E9B /* PhotosViewController.h */,
+				1580D8FD213A73D9009A9E9B /* PagingPhotoView.h */,
+			);
+			path = Samples;
+			sourceTree = "<group>";
+		};
+		1580D8EB213A73D9009A9E9B /* Autocomplete */ = {
+			isa = PBXGroup;
+			children = (
+				1580D8EC213A73D9009A9E9B /* AutocompleteWithSearchViewController.m */,
+				1580D8ED213A73D9009A9E9B /* AutocompleteBaseViewController.h */,
+				1580D8EE213A73D9009A9E9B /* AutocompleteWithSearchDisplayController.h */,
+				1580D8EF213A73D9009A9E9B /* AutocompletePushViewController.h */,
+				1580D8F0213A73D9009A9E9B /* AutocompleteModalViewController.h */,
+				1580D8F1213A73D9009A9E9B /* AutocompleteWithCustomColors.h */,
+				1580D8F2213A73D9009A9E9B /* AutocompleteWithTextFieldController.h */,
+				1580D8F3213A73D9009A9E9B /* AutocompleteWithSearchViewController.h */,
+				1580D8F4213A73D9009A9E9B /* AutocompleteWithSearchDisplayController.m */,
+				1580D8F5213A73D9009A9E9B /* AutocompletePushViewController.m */,
+				1580D8F6213A73D9009A9E9B /* AutocompleteBaseViewController.m */,
+				1580D8F7213A73D9009A9E9B /* AutocompleteWithTextFieldController.m */,
+				1580D8F8213A73D9009A9E9B /* AutocompleteWithCustomColors.m */,
+				1580D8F9213A73D9009A9E9B /* AutocompleteModalViewController.m */,
+			);
+			path = Autocomplete;
+			sourceTree = "<group>";
+		};
+		1580D8FF213A73D9009A9E9B /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				1580D900213A73D9009A9E9B /* BaseDemoViewController.h */,
+				1580D901213A73D9009A9E9B /* MainSplitViewControllerBehaviorManager.h */,
+				1580D902213A73D9009A9E9B /* BaseDemoViewController.m */,
+				1580D903213A73D9009A9E9B /* MainSplitViewControllerBehaviorManager.m */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		1580D90B213A73D9009A9E9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1580D90C213A73D9009A9E9B /* GooglePlaces.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		1580D910213A73DA009A9E9B /* GooglePlacePicker */ = {
+			isa = PBXGroup;
+			children = (
+				1580D911213A73DA009A9E9B /* CHANGELOG */,
+				1580D912213A73DA009A9E9B /* Example */,
+				1580D963213A73DA009A9E9B /* README.md */,
+				1580D964213A73DA009A9E9B /* Frameworks */,
+			);
+			path = GooglePlacePicker;
+			sourceTree = "<group>";
+		};
+		1580D912213A73DA009A9E9B /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				1580D913213A73DA009A9E9B /* README.GooglePlacePickerDemos */,
+				1580D914213A73DA009A9E9B /* GooglePlacePickerDemos.xcodeproj */,
+				1580D917213A73DA009A9E9B /* Podfile */,
+				1580D918213A73DA009A9E9B /* GooglePlacePickerDemos */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		1580D915213A73DA009A9E9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1580D968213A73DA009A9E9B /* GooglePlacePickerDemos.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1580D918213A73DA009A9E9B /* GooglePlacePickerDemos */ = {
+			isa = PBXGroup;
+			children = (
+				1580D919213A73DA009A9E9B /* Styles.swift */,
+				1580D91A213A73DA009A9E9B /* Resources */,
+				1580D949213A73DA009A9E9B /* ShadowLineView.swift */,
+				1580D94A213A73DA009A9E9B /* ViewControllers */,
+				1580D95B213A73DA009A9E9B /* Support */,
+				1580D95E213A73DA009A9E9B /* ShadowView.swift */,
+				1580D95F213A73DA009A9E9B /* AppDelegate.swift */,
+				1580D960213A73DA009A9E9B /* SDKDemoAPIKey.swift */,
+				1580D961213A73DA009A9E9B /* RoundedButton.swift */,
+				1580D962213A73DA009A9E9B /* Info.plist */,
+			);
+			path = GooglePlacePickerDemos;
+			sourceTree = "<group>";
+		};
+		1580D91A213A73DA009A9E9B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1580D91B213A73DA009A9E9B /* Localizable.strings */,
+				1580D933213A73DA009A9E9B /* LaunchScreen.storyboard */,
+				1580D93E213A73DA009A9E9B /* PlacePickerDemoAssets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1580D94A213A73DA009A9E9B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1580D94B213A73DA009A9E9B /* PickAPlace */,
+				1580D94E213A73DA009A9E9B /* PlaceDetail */,
+				1580D956213A73DA009A9E9B /* Containers */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1580D94B213A73DA009A9E9B /* PickAPlace */ = {
+			isa = PBXGroup;
+			children = (
+				1580D94C213A73DA009A9E9B /* PickAPlaceViewController.xib */,
+				1580D94D213A73DA009A9E9B /* PickAPlaceViewController.swift */,
+			);
+			path = PickAPlace;
+			sourceTree = "<group>";
+		};
+		1580D94E213A73DA009A9E9B /* PlaceDetail */ = {
+			isa = PBXGroup;
+			children = (
+				1580D94F213A73DA009A9E9B /* PlaceAttributeCell.xib */,
+				1580D950213A73DA009A9E9B /* PlaceDetailViewController.xib */,
+				1580D951213A73DA009A9E9B /* PlaceAttributeCell.swift */,
+				1580D952213A73DA009A9E9B /* PlaceNameHeader.swift */,
+				1580D953213A73DA009A9E9B /* PlaceDetailTableViewDataSource.swift */,
+				1580D954213A73DA009A9E9B /* PlaceNameHeader.xib */,
+				1580D955213A73DA009A9E9B /* PlaceDetailViewController.swift */,
+			);
+			path = PlaceDetail;
+			sourceTree = "<group>";
+		};
+		1580D956213A73DA009A9E9B /* Containers */ = {
+			isa = PBXGroup;
+			children = (
+				1580D957213A73DA009A9E9B /* BackgroundMapViewController.swift */,
+				1580D958213A73DA009A9E9B /* InsetViewController.swift */,
+				1580D959213A73DA009A9E9B /* SplitPaneViewController.swift */,
+				1580D95A213A73DA009A9E9B /* BaseContainerViewController.swift */,
+			);
+			path = Containers;
+			sourceTree = "<group>";
+		};
+		1580D95B213A73DA009A9E9B /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				1580D95C213A73DA009A9E9B /* NotificationObserver.swift */,
+				1580D95D213A73DA009A9E9B /* CGRect+Extensions.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		1580D964213A73DA009A9E9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1580D965213A73DA009A9E9B /* GooglePlacePicker.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		1580D969213A73E2009A9E9B /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				1580D96A213A73E2009A9E9B /* Maps */,
+				1580D96E213A73E2009A9E9B /* CHANGELOG */,
+				1580D96F213A73E2009A9E9B /* Example */,
+				1580DA1C213A73E3009A9E9B /* README.md */,
+				1580DA1D213A73E3009A9E9B /* Base */,
+			);
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		1580D96A213A73E2009A9E9B /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				1580D96B213A73E2009A9E9B /* Frameworks */,
+			);
+			path = Maps;
+			sourceTree = "<group>";
+		};
+		1580D96B213A73E2009A9E9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1580D96C213A73E2009A9E9B /* GoogleMapsCore.framework */,
+				1580D96D213A73E2009A9E9B /* GoogleMaps.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		1580D96F213A73E2009A9E9B /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				1580D970213A73E2009A9E9B /* GoogleMapsDemos.xcodeproj */,
+				1580D973213A73E2009A9E9B /* GoogleMapsDemos */,
+				1580DA1A213A73E3009A9E9B /* README.GoogleMapsDemos */,
+				1580DA1B213A73E3009A9E9B /* Podfile */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		1580D971213A73E2009A9E9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1580DA22213A73E3009A9E9B /* GoogleMapsDemos.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1580D973213A73E2009A9E9B /* GoogleMapsDemos */ = {
+			isa = PBXGroup;
+			children = (
+				1580D974213A73E2009A9E9B /* Resources */,
+				1580D9CB213A73E3009A9E9B /* DemoAppDelegate.h */,
+				1580D9CC213A73E3009A9E9B /* MasterViewController.h */,
+				1580D9CD213A73E3009A9E9B /* SDKDemoAPIKey.h */,
+				1580D9CE213A73E3009A9E9B /* Samples */,
+				1580DA15213A73E3009A9E9B /* main.m */,
+				1580DA16213A73E3009A9E9B /* MapsDemoAssets.xcassets */,
+				1580DA17213A73E3009A9E9B /* Info.plist */,
+				1580DA18213A73E3009A9E9B /* DemoAppDelegate.m */,
+				1580DA19213A73E3009A9E9B /* MasterViewController.m */,
+			);
+			path = GoogleMapsDemos;
+			sourceTree = "<group>";
+		};
+		1580D974213A73E2009A9E9B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1580D975213A73E2009A9E9B /* InfoPlist.strings */,
+				1580D977213A73E2009A9E9B /* step5.png */,
+				1580D979213A73E2009A9E9B /* step1@2x.png */,
+				1580D97B213A73E2009A9E9B /* step4.png */,
+				1580D97D213A73E2009A9E9B /* argentina.png */,
+				1580D97F213A73E2009A9E9B /* boat.png */,
+				1580D980213A73E2009A9E9B /* aeroplane@2x.png */,
+				1580D981213A73E2009A9E9B /* step6.png */,
+				1580D982213A73E2009A9E9B /* mapstyle-night.json */,
+				1580D984213A73E2009A9E9B /* LaunchScreen.storyboard */,
+				1580D985213A73E2009A9E9B /* step7.png */,
+				1580D987213A73E2009A9E9B /* aeroplane.png */,
+				1580D988213A73E2009A9E9B /* newark_nj_1922.jpg */,
+				1580D989213A73E2009A9E9B /* botswana-large.png */,
+				1580D98B213A73E2009A9E9B /* step3.png */,
+				1580D98C213A73E2009A9E9B /* step2.png */,
+				1580D98E213A73E2009A9E9B /* popup_santa@2x.png */,
+				1580D990213A73E2009A9E9B /* glow-marker.png */,
+				1580D991213A73E2009A9E9B /* step1.png */,
+				1580D993213A73E2009A9E9B /* step3@2x.png */,
+				1580D994213A73E2009A9E9B /* mapstyle-retro.json */,
+				1580D996213A73E2009A9E9B /* australia.png */,
+				1580D999213A73E2009A9E9B /* step7@2x.png */,
+				1580D99A213A73E2009A9E9B /* arrow@2x.png */,
+				1580D99B213A73E2009A9E9B /* glow-marker@2x.png */,
+				1580D99E213A73E2009A9E9B /* step5@2x.png */,
+				1580D99F213A73E2009A9E9B /* australia-large@2x.png */,
+				1580D9A0213A73E2009A9E9B /* arrow.png */,
+				1580D9A3213A73E2009A9E9B /* boat@2x.png */,
+				1580D9A5213A73E2009A9E9B /* Museum-Icons */,
+				1580D9AE213A73E2009A9E9B /* bulgaria.png */,
+				1580D9AF213A73E2009A9E9B /* bulgaria-large.png */,
+				1580D9B1213A73E3009A9E9B /* argentina-large.png */,
+				1580D9B5213A73E3009A9E9B /* step2@2x.png */,
+				1580D9B7213A73E3009A9E9B /* popup_santa.png */,
+				1580D9B9213A73E3009A9E9B /* mapstyle-silver.json */,
+				1580D9BA213A73E3009A9E9B /* step6@2x.png */,
+				1580D9BD213A73E3009A9E9B /* track.json */,
+				1580D9C3213A73E3009A9E9B /* museum-exhibits.json */,
+				1580D9C4213A73E3009A9E9B /* step8@2x.png */,
+				1580D9C6213A73E3009A9E9B /* step8.png */,
+				1580D9C7213A73E3009A9E9B /* australia-large.png */,
+				1580D9C9213A73E3009A9E9B /* botswana.png */,
+				1580D9CA213A73E3009A9E9B /* step4@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1580D9A5213A73E2009A9E9B /* Museum-Icons */ = {
+			isa = PBXGroup;
+			children = (
+				1580D9A6213A73E2009A9E9B /* x29@2x.png */,
+				1580D9A7213A73E2009A9E9B /* spitfire.png */,
+				1580D9A8213A73E2009A9E9B /* h1@2x.png */,
+				1580D9A9213A73E2009A9E9B /* spitfire@2x.png */,
+				1580D9AA213A73E2009A9E9B /* h1.png */,
+				1580D9AB213A73E2009A9E9B /* voyager.png */,
+				1580D9AC213A73E2009A9E9B /* x29.png */,
+				1580D9AD213A73E2009A9E9B /* voyager@2x.png */,
+			);
+			path = "Museum-Icons";
+			sourceTree = "<group>";
+		};
+		1580D9CE213A73E3009A9E9B /* Samples */ = {
+			isa = PBXGroup;
+			children = (
+				1580D9CF213A73E3009A9E9B /* MapTypesViewController.h */,
+				1580D9D0213A73E3009A9E9B /* MapZoomViewController.h */,
+				1580D9D1213A73E3009A9E9B /* PolygonsViewController.m */,
+				1580D9D2213A73E3009A9E9B /* AnimatedUIViewMarkerViewController.m */,
+				1580D9D3213A73E3009A9E9B /* MyLocationViewController.m */,
+				1580D9D4213A73E3009A9E9B /* FrameRateViewController.h */,
+				1580D9D5213A73E3009A9E9B /* CameraViewController.m */,
+				1580D9D6213A73E3009A9E9B /* MarkerLayerViewController.h */,
+				1580D9D7213A73E3009A9E9B /* MapLayerViewController.h */,
+				1580D9D8213A73E3009A9E9B /* GeocoderViewController.h */,
+				1580D9D9213A73E3009A9E9B /* IndoorViewController.h */,
+				1580D9DA213A73E3009A9E9B /* SnapshotReadyViewController.h */,
+				1580D9DB213A73E3009A9E9B /* CustomIndoorViewController.h */,
+				1580D9DC213A73E3009A9E9B /* BasicMapViewController.h */,
+				1580D9DD213A73E3009A9E9B /* FixedPanoramaViewController.m */,
+				1580D9DE213A73E3009A9E9B /* AnimatedCurrentLocationViewController.h */,
+				1580D9DF213A73E3009A9E9B /* VisibleRegionViewController.m */,
+				1580D9E0213A73E3009A9E9B /* StructuredGeocoderViewController.h */,
+				1580D9E1213A73E3009A9E9B /* CustomMarkersViewController.m */,
+				1580D9E2213A73E3009A9E9B /* GestureControlViewController.m */,
+				1580D9E3213A73E3009A9E9B /* StyledMapViewController.m */,
+				1580D9E4213A73E3009A9E9B /* MarkerInfoWindowViewController.h */,
+				1580D9E5213A73E3009A9E9B /* IndoorMuseumNavigationViewController.h */,
+				1580D9E6213A73E3009A9E9B /* PolylinesViewController.m */,
+				1580D9E7213A73E3009A9E9B /* TileLayerViewController.m */,
+				1580D9E8213A73E3009A9E9B /* MarkerEventsViewController.h */,
+				1580D9E9213A73E3009A9E9B /* Samples.m */,
+				1580D9EA213A73E3009A9E9B /* PanoramaViewController.m */,
+				1580D9EB213A73E3009A9E9B /* PaddingBehaviorViewController.m */,
+				1580D9EC213A73E3009A9E9B /* MarkersViewController.m */,
+				1580D9ED213A73E3009A9E9B /* GroundOverlayViewController.h */,
+				1580D9EE213A73E3009A9E9B /* DoubleMapViewController.h */,
+				1580D9EF213A73E3009A9E9B /* GradientPolylinesViewController.h */,
+				1580D9F0213A73E3009A9E9B /* FitBoundsViewController.h */,
+				1580D9F1213A73E3009A9E9B /* TrafficMapViewController.m */,
+				1580D9F2213A73E3009A9E9B /* IndoorViewController.m */,
+				1580D9F3213A73E3009A9E9B /* GeocoderViewController.m */,
+				1580D9F4213A73E3009A9E9B /* MapLayerViewController.m */,
+				1580D9F5213A73E3009A9E9B /* MarkerLayerViewController.m */,
+				1580D9F6213A73E3009A9E9B /* CameraViewController.h */,
+				1580D9F7213A73E3009A9E9B /* FrameRateViewController.m */,
+				1580D9F8213A73E3009A9E9B /* MyLocationViewController.h */,
+				1580D9F9213A73E3009A9E9B /* PolygonsViewController.h */,
+				1580D9FA213A73E3009A9E9B /* AnimatedUIViewMarkerViewController.h */,
+				1580D9FB213A73E3009A9E9B /* MapZoomViewController.m */,
+				1580D9FC213A73E3009A9E9B /* MapTypesViewController.m */,
+				1580D9FD213A73E3009A9E9B /* StructuredGeocoderViewController.m */,
+				1580D9FE213A73E3009A9E9B /* VisibleRegionViewController.h */,
+				1580D9FF213A73E3009A9E9B /* AnimatedCurrentLocationViewController.m */,
+				1580DA00213A73E3009A9E9B /* FixedPanoramaViewController.h */,
+				1580DA01213A73E3009A9E9B /* CustomIndoorViewController.m */,
+				1580DA02213A73E3009A9E9B /* BasicMapViewController.m */,
+				1580DA03213A73E3009A9E9B /* SnapshotReadyViewController.m */,
+				1580DA04213A73E3009A9E9B /* MarkerEventsViewController.m */,
+				1580DA05213A73E3009A9E9B /* PolylinesViewController.h */,
+				1580DA06213A73E3009A9E9B /* TileLayerViewController.h */,
+				1580DA07213A73E3009A9E9B /* IndoorMuseumNavigationViewController.m */,
+				1580DA08213A73E3009A9E9B /* GestureControlViewController.h */,
+				1580DA09213A73E3009A9E9B /* MarkerInfoWindowViewController.m */,
+				1580DA0A213A73E3009A9E9B /* StyledMapViewController.h */,
+				1580DA0B213A73E3009A9E9B /* CustomMarkersViewController.h */,
+				1580DA0C213A73E3009A9E9B /* FitBoundsViewController.m */,
+				1580DA0D213A73E3009A9E9B /* TrafficMapViewController.h */,
+				1580DA0E213A73E3009A9E9B /* GradientPolylinesViewController.m */,
+				1580DA0F213A73E3009A9E9B /* DoubleMapViewController.m */,
+				1580DA10213A73E3009A9E9B /* MarkersViewController.h */,
+				1580DA11213A73E3009A9E9B /* PaddingBehaviorViewController.h */,
+				1580DA12213A73E3009A9E9B /* GroundOverlayViewController.m */,
+				1580DA13213A73E3009A9E9B /* PanoramaViewController.h */,
+				1580DA14213A73E3009A9E9B /* Samples.h */,
+			);
+			path = Samples;
+			sourceTree = "<group>";
+		};
+		1580DA1D213A73E3009A9E9B /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				1580DA1E213A73E3009A9E9B /* Frameworks */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		1580DA1E213A73E3009A9E9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1580DA1F213A73E3009A9E9B /* GoogleMapsBase.framework */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
@@ -144,7 +1144,61 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1580DAE1213A73E3009A9E9B /* TrafficMapViewController.h in Headers */,
+				1580DA3D213A73E3009A9E9B /* PhotosViewController.h in Headers */,
+				1580DAAB213A73E3009A9E9B /* MapLayerViewController.h in Headers */,
+				1580DADA213A73E3009A9E9B /* TileLayerViewController.h in Headers */,
+				1580DADE213A73E3009A9E9B /* StyledMapViewController.h in Headers */,
+				1580DADC213A73E3009A9E9B /* GestureControlViewController.h in Headers */,
+				1580DAA4213A73E3009A9E9B /* MapZoomViewController.h in Headers */,
+				1580DAAC213A73E3009A9E9B /* GeocoderViewController.h in Headers */,
+				1580DAE7213A73E3009A9E9B /* PanoramaViewController.h in Headers */,
+				1580DAB4213A73E3009A9E9B /* StructuredGeocoderViewController.h in Headers */,
+				1580DAC2213A73E3009A9E9B /* DoubleMapViewController.h in Headers */,
+				1580DA45213A73E3009A9E9B /* DemoListViewController.h in Headers */,
+				1580DACC213A73E3009A9E9B /* MyLocationViewController.h in Headers */,
+				1580DA2F213A73E3009A9E9B /* AutocompleteWithSearchDisplayController.h in Headers */,
+				1580DAAF213A73E3009A9E9B /* CustomIndoorViewController.h in Headers */,
+				1580DAC4213A73E3009A9E9B /* FitBoundsViewController.h in Headers */,
+				1580DAC3213A73E3009A9E9B /* GradientPolylinesViewController.h in Headers */,
+				1580DAA2213A73E3009A9E9B /* SDKDemoAPIKey.h in Headers */,
+				1580DAA3213A73E3009A9E9B /* MapTypesViewController.h in Headers */,
+				1580DA41213A73E3009A9E9B /* MainSplitViewControllerBehaviorManager.h in Headers */,
+				1580DAB8213A73E3009A9E9B /* MarkerInfoWindowViewController.h in Headers */,
+				1580DA3E213A73E3009A9E9B /* PagingPhotoView.h in Headers */,
+				1580DA31213A73E3009A9E9B /* AutocompleteModalViewController.h in Headers */,
+				1580DA2E213A73E3009A9E9B /* AutocompleteBaseViewController.h in Headers */,
+				1580DAC1213A73E3009A9E9B /* GroundOverlayViewController.h in Headers */,
+				1580DAAD213A73E3009A9E9B /* IndoorViewController.h in Headers */,
+				1580DACA213A73E3009A9E9B /* CameraViewController.h in Headers */,
+				1580DA40213A73E3009A9E9B /* BaseDemoViewController.h in Headers */,
+				1580DA29213A73E3009A9E9B /* DemoAppDelegate.h in Headers */,
+				1580DAD4213A73E3009A9E9B /* FixedPanoramaViewController.h in Headers */,
+				1580DAA1213A73E3009A9E9B /* MasterViewController.h in Headers */,
+				1580DA3C213A73E3009A9E9B /* PlacePickerViewController.h in Headers */,
+				1580DAA0213A73E3009A9E9B /* DemoAppDelegate.h in Headers */,
+				1580DAAA213A73E3009A9E9B /* MarkerLayerViewController.h in Headers */,
+				1580DAD2213A73E3009A9E9B /* VisibleRegionViewController.h in Headers */,
+				1580DAB2213A73E3009A9E9B /* AnimatedCurrentLocationViewController.h in Headers */,
 				1580D658213A6D99009A9E9B /* GoogleMapsPlacesSDK_Framework.h in Headers */,
+				1580DACD213A73E3009A9E9B /* PolygonsViewController.h in Headers */,
+				1580DABC213A73E3009A9E9B /* MarkerEventsViewController.h in Headers */,
+				1580DA30213A73E3009A9E9B /* AutocompletePushViewController.h in Headers */,
+				1580DA2A213A73E3009A9E9B /* SDKDemoAPIKey.h in Headers */,
+				1580DAB0213A73E3009A9E9B /* BasicMapViewController.h in Headers */,
+				1580DADF213A73E3009A9E9B /* CustomMarkersViewController.h in Headers */,
+				1580DAA8213A73E3009A9E9B /* FrameRateViewController.h in Headers */,
+				1580DAAE213A73E3009A9E9B /* SnapshotReadyViewController.h in Headers */,
+				1580DA34213A73E3009A9E9B /* AutocompleteWithSearchViewController.h in Headers */,
+				1580DAE5213A73E3009A9E9B /* PaddingBehaviorViewController.h in Headers */,
+				1580DAE4213A73E3009A9E9B /* MarkersViewController.h in Headers */,
+				1580DACE213A73E3009A9E9B /* AnimatedUIViewMarkerViewController.h in Headers */,
+				1580DA32213A73E3009A9E9B /* AutocompleteWithCustomColors.h in Headers */,
+				1580DA33213A73E3009A9E9B /* AutocompleteWithTextFieldController.h in Headers */,
+				1580DAE8213A73E3009A9E9B /* Samples.h in Headers */,
+				1580DAB9213A73E3009A9E9B /* IndoorMuseumNavigationViewController.h in Headers */,
+				1580DA44213A73E3009A9E9B /* DemoData.h in Headers */,
+				1580DAD9213A73E3009A9E9B /* PolylinesViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,10 +1267,65 @@
 			knownRegions = (
 				en,
 				Base,
+				de,
+				he,
+				en_AU,
+				ar,
+				el,
+				ja,
+				uk,
+				es_419,
+				es_MX,
+				zh_CN,
+				nb,
+				es,
+				pt_BR,
+				da,
+				it,
+				sk,
+				pt_PT,
+				ms,
+				sv,
+				cs,
+				en_IN,
+				ko,
+				hu,
+				zh_HK,
+				tr,
+				pl,
+				zh_TW,
+				en_GB,
+				vi,
+				ru,
+				fr_CA,
+				fr,
+				fi,
+				id,
+				nl,
+				th,
+				pt,
+				ro,
+				hr,
+				hi,
+				ca,
 			);
 			mainGroup = 1580D631213A6D74009A9E9B;
 			productRefGroup = 1580D63B213A6D74009A9E9B /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 1580D971213A73E2009A9E9B /* Products */;
+					ProjectRef = 1580D970213A73E2009A9E9B /* GoogleMapsDemos.xcodeproj */;
+				},
+				{
+					ProductGroup = 1580D915213A73DA009A9E9B /* Products */;
+					ProjectRef = 1580D914213A73DA009A9E9B /* GooglePlacePickerDemos.xcodeproj */;
+				},
+				{
+					ProductGroup = 1580D8B2213A73D9009A9E9B /* Products */;
+					ProjectRef = 1580D8B1213A73D9009A9E9B /* GooglePlacesDemos.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				1580D639213A6D74009A9E9B /* GoogleMapsPlacesSDK */,
@@ -224,6 +1333,30 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		1580D90F213A73D9009A9E9B /* GooglePlacesDemos.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = GooglePlacesDemos.app;
+			remoteRef = 1580D90E213A73D9009A9E9B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1580D968213A73DA009A9E9B /* GooglePlacePickerDemos.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = GooglePlacePickerDemos.app;
+			remoteRef = 1580D967213A73DA009A9E9B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1580DA22213A73E3009A9E9B /* GoogleMapsDemos.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = GoogleMapsDemos.app;
+			remoteRef = 1580DA21213A73E3009A9E9B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		1580D638213A6D74009A9E9B /* Resources */ = {
@@ -240,6 +1373,83 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1580DA8E213A73E3009A9E9B /* h1.png in Resources */,
+				1580DA8D213A73E3009A9E9B /* spitfire@2x.png in Resources */,
+				1580DA56213A73E3009A9E9B /* PlaceAttributeCell.xib in Resources */,
+				1580DA90213A73E3009A9E9B /* x29.png in Resources */,
+				1580DA93213A73E3009A9E9B /* bulgaria-large.png in Resources */,
+				1580DA7F213A73E3009A9E9B /* step1.png in Resources */,
+				1580DA79213A73E3009A9E9B /* newark_nj_1922.jpg in Resources */,
+				1580DA81213A73E3009A9E9B /* mapstyle-retro.json in Resources */,
+				1580DA48213A73E3009A9E9B /* Podfile in Resources */,
+				1580DA72213A73E3009A9E9B /* boat.png in Resources */,
+				1580DA9C213A73E3009A9E9B /* step8.png in Resources */,
+				1580DA74213A73E3009A9E9B /* step6.png in Resources */,
+				1580DA6C213A73E3009A9E9B /* CHANGELOG in Resources */,
+				1580DA7E213A73E3009A9E9B /* glow-marker.png in Resources */,
+				1580DA95213A73E3009A9E9B /* step2@2x.png in Resources */,
+				1580DA73213A73E3009A9E9B /* aeroplane@2x.png in Resources */,
+				1580DA68213A73E3009A9E9B /* README.md in Resources */,
+				1580DA50213A73E3009A9E9B /* Localizable.strings in Resources */,
+				1580DA9B213A73E3009A9E9B /* step8@2x.png in Resources */,
+				1580DA99213A73E3009A9E9B /* track.json in Resources */,
+				1580DAEB213A73E3009A9E9B /* Info.plist in Resources */,
+				1580DA5B213A73E3009A9E9B /* PlaceNameHeader.xib in Resources */,
+				1580DA7A213A73E3009A9E9B /* botswana-large.png in Resources */,
+				1580DAEE213A73E3009A9E9B /* README.GoogleMapsDemos in Resources */,
+				1580DA7C213A73E3009A9E9B /* step2.png in Resources */,
+				1580DA27213A73E3009A9E9B /* LaunchScreen.storyboard in Resources */,
+				1580DA86213A73E3009A9E9B /* step5@2x.png in Resources */,
+				1580DA9F213A73E3009A9E9B /* step4@2x.png in Resources */,
+				1580DA28213A73E3009A9E9B /* PlacesDemoAssets.xcassets in Resources */,
+				1580DA96213A73E3009A9E9B /* popup_santa.png in Resources */,
+				1580DA23213A73E3009A9E9B /* CHANGELOG in Resources */,
+				1580DAF0213A73E3009A9E9B /* README.md in Resources */,
+				1580DA71213A73E3009A9E9B /* argentina.png in Resources */,
+				1580DAEA213A73E3009A9E9B /* MapsDemoAssets.xcassets in Resources */,
+				1580DA6D213A73E3009A9E9B /* InfoPlist.strings in Resources */,
+				1580DA49213A73E3009A9E9B /* README.GooglePlacesDemos in Resources */,
+				1580DA85213A73E3009A9E9B /* glow-marker@2x.png in Resources */,
+				1580DA77213A73E3009A9E9B /* step7.png in Resources */,
+				1580DA82213A73E3009A9E9B /* australia.png in Resources */,
+				1580DA94213A73E3009A9E9B /* argentina-large.png in Resources */,
+				1580DA4C213A73E3009A9E9B /* CHANGELOG in Resources */,
+				1580DA89213A73E3009A9E9B /* boat@2x.png in Resources */,
+				1580DA88213A73E3009A9E9B /* arrow.png in Resources */,
+				1580DA98213A73E3009A9E9B /* step6@2x.png in Resources */,
+				1580DA7B213A73E3009A9E9B /* step3.png in Resources */,
+				1580DA67213A73E3009A9E9B /* Info.plist in Resources */,
+				1580DA84213A73E3009A9E9B /* arrow@2x.png in Resources */,
+				1580DA76213A73E3009A9E9B /* LaunchScreen.storyboard in Resources */,
+				1580DA7D213A73E3009A9E9B /* popup_santa@2x.png in Resources */,
+				1580DA8F213A73E3009A9E9B /* voyager.png in Resources */,
+				1580DA83213A73E3009A9E9B /* step7@2x.png in Resources */,
+				1580DA80213A73E3009A9E9B /* step3@2x.png in Resources */,
+				1580DA87213A73E3009A9E9B /* australia-large@2x.png in Resources */,
+				1580DA51213A73E3009A9E9B /* LaunchScreen.storyboard in Resources */,
+				1580DA9E213A73E3009A9E9B /* botswana.png in Resources */,
+				1580DA97213A73E3009A9E9B /* mapstyle-silver.json in Resources */,
+				1580DA46213A73E3009A9E9B /* Info.plist in Resources */,
+				1580DA70213A73E3009A9E9B /* step4.png in Resources */,
+				1580DA78213A73E3009A9E9B /* aeroplane.png in Resources */,
+				1580DA52213A73E3009A9E9B /* PlacePickerDemoAssets.xcassets in Resources */,
+				1580DA9D213A73E3009A9E9B /* australia-large.png in Resources */,
+				1580DA8A213A73E3009A9E9B /* x29@2x.png in Resources */,
+				1580DA75213A73E3009A9E9B /* mapstyle-night.json in Resources */,
+				1580DA6E213A73E3009A9E9B /* step5.png in Resources */,
+				1580DA4D213A73E3009A9E9B /* README.GooglePlacePickerDemos in Resources */,
+				1580DA8B213A73E3009A9E9B /* spitfire.png in Resources */,
+				1580DA54213A73E3009A9E9B /* PickAPlaceViewController.xib in Resources */,
+				1580DAEF213A73E3009A9E9B /* Podfile in Resources */,
+				1580DA57213A73E3009A9E9B /* PlaceDetailViewController.xib in Resources */,
+				1580DA92213A73E3009A9E9B /* bulgaria.png in Resources */,
+				1580DA4A213A73E3009A9E9B /* README.md in Resources */,
+				1580DA26213A73E3009A9E9B /* Localizable.strings in Resources */,
+				1580DA9A213A73E3009A9E9B /* museum-exhibits.json in Resources */,
+				1580DA8C213A73E3009A9E9B /* h1@2x.png in Resources */,
+				1580DA6F213A73E3009A9E9B /* step1@2x.png in Resources */,
+				1580DA91213A73E3009A9E9B /* voyager@2x.png in Resources */,
+				1580DA4E213A73E3009A9E9B /* Podfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +1469,77 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1580DADD213A73E3009A9E9B /* MarkerInfoWindowViewController.m in Sources */,
+				1580DA3F213A73E3009A9E9B /* main.m in Sources */,
+				1580DA24213A73E3009A9E9B /* DemoData.m in Sources */,
+				1580DAB1213A73E3009A9E9B /* FixedPanoramaViewController.m in Sources */,
+				1580DA53213A73E3009A9E9B /* ShadowLineView.swift in Sources */,
+				1580DADB213A73E3009A9E9B /* IndoorMuseumNavigationViewController.m in Sources */,
+				1580DA5F213A73E3009A9E9B /* SplitPaneViewController.swift in Sources */,
+				1580DAD8213A73E3009A9E9B /* MarkerEventsViewController.m in Sources */,
+				1580DAC7213A73E3009A9E9B /* GeocoderViewController.m in Sources */,
+				1580DAA6213A73E3009A9E9B /* AnimatedUIViewMarkerViewController.m in Sources */,
+				1580DAE9213A73E3009A9E9B /* main.m in Sources */,
+				1580DABD213A73E3009A9E9B /* Samples.m in Sources */,
+				1580DAD3213A73E3009A9E9B /* AnimatedCurrentLocationViewController.m in Sources */,
+				1580DAC5213A73E3009A9E9B /* TrafficMapViewController.m in Sources */,
+				1580DA5D213A73E3009A9E9B /* BackgroundMapViewController.swift in Sources */,
+				1580DA2C213A73E3009A9E9B /* PhotosViewController.m in Sources */,
+				1580DABE213A73E3009A9E9B /* PanoramaViewController.m in Sources */,
+				1580DAC9213A73E3009A9E9B /* MarkerLayerViewController.m in Sources */,
+				1580DA58213A73E3009A9E9B /* PlaceAttributeCell.swift in Sources */,
+				1580DA38213A73E3009A9E9B /* AutocompleteWithTextFieldController.m in Sources */,
+				1580DABA213A73E3009A9E9B /* PolylinesViewController.m in Sources */,
+				1580DAEC213A73E3009A9E9B /* DemoAppDelegate.m in Sources */,
+				1580DA61213A73E3009A9E9B /* NotificationObserver.swift in Sources */,
+				1580DAD6213A73E3009A9E9B /* BasicMapViewController.m in Sources */,
+				1580DA36213A73E3009A9E9B /* AutocompletePushViewController.m in Sources */,
+				1580DA39213A73E3009A9E9B /* AutocompleteWithCustomColors.m in Sources */,
+				1580DAE0213A73E3009A9E9B /* FitBoundsViewController.m in Sources */,
+				1580DAC6213A73E3009A9E9B /* IndoorViewController.m in Sources */,
+				1580DAD1213A73E3009A9E9B /* StructuredGeocoderViewController.m in Sources */,
+				1580DA35213A73E3009A9E9B /* AutocompleteWithSearchDisplayController.m in Sources */,
+				1580DAD0213A73E3009A9E9B /* MapTypesViewController.m in Sources */,
+				1580DA5C213A73E3009A9E9B /* PlaceDetailViewController.swift in Sources */,
+				1580DAB5213A73E3009A9E9B /* CustomMarkersViewController.m in Sources */,
+				1580DAB3213A73E3009A9E9B /* VisibleRegionViewController.m in Sources */,
+				1580DAA5213A73E3009A9E9B /* PolygonsViewController.m in Sources */,
+				1580DA2D213A73E3009A9E9B /* AutocompleteWithSearchViewController.m in Sources */,
+				1580DA5E213A73E3009A9E9B /* InsetViewController.swift in Sources */,
+				1580DAB6213A73E3009A9E9B /* GestureControlViewController.m in Sources */,
+				1580DA42213A73E3009A9E9B /* BaseDemoViewController.m in Sources */,
+				1580DA25213A73E3009A9E9B /* DemoListViewController.m in Sources */,
+				1580DAA7213A73E3009A9E9B /* MyLocationViewController.m in Sources */,
+				1580DA3A213A73E3009A9E9B /* AutocompleteModalViewController.m in Sources */,
+				1580DA60213A73E3009A9E9B /* BaseContainerViewController.swift in Sources */,
+				1580DA37213A73E3009A9E9B /* AutocompleteBaseViewController.m in Sources */,
+				1580DACB213A73E3009A9E9B /* FrameRateViewController.m in Sources */,
+				1580DAED213A73E3009A9E9B /* MasterViewController.m in Sources */,
+				1580DACF213A73E3009A9E9B /* MapZoomViewController.m in Sources */,
+				1580DAA9213A73E3009A9E9B /* CameraViewController.m in Sources */,
+				1580DA4F213A73E3009A9E9B /* Styles.swift in Sources */,
+				1580DA43213A73E3009A9E9B /* MainSplitViewControllerBehaviorManager.m in Sources */,
+				1580DA64213A73E3009A9E9B /* AppDelegate.swift in Sources */,
+				1580DA47213A73E3009A9E9B /* DemoAppDelegate.m in Sources */,
+				1580DAB7213A73E3009A9E9B /* StyledMapViewController.m in Sources */,
+				1580DA65213A73E3009A9E9B /* SDKDemoAPIKey.swift in Sources */,
+				1580DA59213A73E3009A9E9B /* PlaceNameHeader.swift in Sources */,
+				1580DAC8213A73E3009A9E9B /* MapLayerViewController.m in Sources */,
+				1580DAC0213A73E3009A9E9B /* MarkersViewController.m in Sources */,
+				1580DA63213A73E3009A9E9B /* ShadowView.swift in Sources */,
+				1580DA55213A73E3009A9E9B /* PickAPlaceViewController.swift in Sources */,
+				1580DAD7213A73E3009A9E9B /* SnapshotReadyViewController.m in Sources */,
+				1580DABB213A73E3009A9E9B /* TileLayerViewController.m in Sources */,
+				1580DABF213A73E3009A9E9B /* PaddingBehaviorViewController.m in Sources */,
+				1580DA66213A73E3009A9E9B /* RoundedButton.swift in Sources */,
+				1580DAE6213A73E3009A9E9B /* GroundOverlayViewController.m in Sources */,
+				1580DAE2213A73E3009A9E9B /* GradientPolylinesViewController.m in Sources */,
+				1580DAD5213A73E3009A9E9B /* CustomIndoorViewController.m in Sources */,
+				1580DAE3213A73E3009A9E9B /* DoubleMapViewController.m in Sources */,
+				1580DA2B213A73E3009A9E9B /* PlacePickerViewController.m in Sources */,
+				1580DA3B213A73E3009A9E9B /* PagingPhotoView.m in Sources */,
+				1580DA5A213A73E3009A9E9B /* PlaceDetailTableViewDataSource.swift in Sources */,
+				1580DA62213A73E3009A9E9B /* CGRect+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +1568,161 @@
 				1580D647213A6D75009A9E9B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1580D8B8213A73D9009A9E9B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1580D8B9213A73D9009A9E9B /* de */,
+				1580D8BA213A73D9009A9E9B /* he */,
+				1580D8BB213A73D9009A9E9B /* en_AU */,
+				1580D8BC213A73D9009A9E9B /* ar */,
+				1580D8BD213A73D9009A9E9B /* el */,
+				1580D8BE213A73D9009A9E9B /* ja */,
+				1580D8BF213A73D9009A9E9B /* en */,
+				1580D8C0213A73D9009A9E9B /* uk */,
+				1580D8C1213A73D9009A9E9B /* es_419 */,
+				1580D8C2213A73D9009A9E9B /* es_MX */,
+				1580D8C3213A73D9009A9E9B /* zh_CN */,
+				1580D8C4213A73D9009A9E9B /* nb */,
+				1580D8C5213A73D9009A9E9B /* es */,
+				1580D8C6213A73D9009A9E9B /* pt_BR */,
+				1580D8C7213A73D9009A9E9B /* da */,
+				1580D8C8213A73D9009A9E9B /* it */,
+				1580D8C9213A73D9009A9E9B /* sk */,
+				1580D8CA213A73D9009A9E9B /* pt_PT */,
+				1580D8CB213A73D9009A9E9B /* ms */,
+				1580D8CC213A73D9009A9E9B /* sv */,
+				1580D8CD213A73D9009A9E9B /* cs */,
+				1580D8CE213A73D9009A9E9B /* en_IN */,
+				1580D8CF213A73D9009A9E9B /* ko */,
+				1580D8D2213A73D9009A9E9B /* hu */,
+				1580D8D3213A73D9009A9E9B /* zh_HK */,
+				1580D8D4213A73D9009A9E9B /* tr */,
+				1580D8D5213A73D9009A9E9B /* pl */,
+				1580D8D6213A73D9009A9E9B /* zh_TW */,
+				1580D8D7213A73D9009A9E9B /* en_GB */,
+				1580D8D8213A73D9009A9E9B /* vi */,
+				1580D8D9213A73D9009A9E9B /* ru */,
+				1580D8DA213A73D9009A9E9B /* fr_CA */,
+				1580D8DB213A73D9009A9E9B /* fr */,
+				1580D8DC213A73D9009A9E9B /* fi */,
+				1580D8DD213A73D9009A9E9B /* id */,
+				1580D8DE213A73D9009A9E9B /* nl */,
+				1580D8DF213A73D9009A9E9B /* th */,
+				1580D8E0213A73D9009A9E9B /* pt */,
+				1580D8E1213A73D9009A9E9B /* ro */,
+				1580D8E3213A73D9009A9E9B /* hr */,
+				1580D8E4213A73D9009A9E9B /* hi */,
+				1580D8E5213A73D9009A9E9B /* ca */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		1580D8D0213A73D9009A9E9B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1580D8D1213A73D9009A9E9B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1580D91B213A73DA009A9E9B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1580D91C213A73DA009A9E9B /* de */,
+				1580D91D213A73DA009A9E9B /* he */,
+				1580D91E213A73DA009A9E9B /* en_AU */,
+				1580D91F213A73DA009A9E9B /* ar */,
+				1580D920213A73DA009A9E9B /* el */,
+				1580D921213A73DA009A9E9B /* ja */,
+				1580D922213A73DA009A9E9B /* en */,
+				1580D923213A73DA009A9E9B /* uk */,
+				1580D924213A73DA009A9E9B /* es_419 */,
+				1580D925213A73DA009A9E9B /* es_MX */,
+				1580D926213A73DA009A9E9B /* zh_CN */,
+				1580D927213A73DA009A9E9B /* nb */,
+				1580D928213A73DA009A9E9B /* es */,
+				1580D929213A73DA009A9E9B /* pt_BR */,
+				1580D92A213A73DA009A9E9B /* da */,
+				1580D92B213A73DA009A9E9B /* it */,
+				1580D92C213A73DA009A9E9B /* sk */,
+				1580D92D213A73DA009A9E9B /* pt_PT */,
+				1580D92E213A73DA009A9E9B /* ms */,
+				1580D92F213A73DA009A9E9B /* sv */,
+				1580D930213A73DA009A9E9B /* cs */,
+				1580D931213A73DA009A9E9B /* en_IN */,
+				1580D932213A73DA009A9E9B /* ko */,
+				1580D935213A73DA009A9E9B /* hu */,
+				1580D936213A73DA009A9E9B /* zh_HK */,
+				1580D937213A73DA009A9E9B /* tr */,
+				1580D938213A73DA009A9E9B /* pl */,
+				1580D939213A73DA009A9E9B /* zh_TW */,
+				1580D93A213A73DA009A9E9B /* en_GB */,
+				1580D93B213A73DA009A9E9B /* vi */,
+				1580D93C213A73DA009A9E9B /* ru */,
+				1580D93D213A73DA009A9E9B /* fr_CA */,
+				1580D93F213A73DA009A9E9B /* fr */,
+				1580D940213A73DA009A9E9B /* fi */,
+				1580D941213A73DA009A9E9B /* id */,
+				1580D942213A73DA009A9E9B /* nl */,
+				1580D943213A73DA009A9E9B /* th */,
+				1580D944213A73DA009A9E9B /* pt */,
+				1580D945213A73DA009A9E9B /* ro */,
+				1580D946213A73DA009A9E9B /* hr */,
+				1580D947213A73DA009A9E9B /* hi */,
+				1580D948213A73DA009A9E9B /* ca */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		1580D933213A73DA009A9E9B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1580D934213A73DA009A9E9B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1580D975213A73E2009A9E9B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1580D976213A73E2009A9E9B /* de */,
+				1580D978213A73E2009A9E9B /* he */,
+				1580D97A213A73E2009A9E9B /* ar */,
+				1580D97C213A73E2009A9E9B /* el */,
+				1580D97E213A73E2009A9E9B /* ja */,
+				1580D983213A73E2009A9E9B /* en */,
+				1580D986213A73E2009A9E9B /* uk */,
+				1580D98A213A73E2009A9E9B /* zh_CN */,
+				1580D98D213A73E2009A9E9B /* nb */,
+				1580D98F213A73E2009A9E9B /* es */,
+				1580D992213A73E2009A9E9B /* da */,
+				1580D995213A73E2009A9E9B /* it */,
+				1580D997213A73E2009A9E9B /* sk */,
+				1580D998213A73E2009A9E9B /* pt_PT */,
+				1580D99C213A73E2009A9E9B /* ms */,
+				1580D99D213A73E2009A9E9B /* sv */,
+				1580D9A1213A73E2009A9E9B /* cs */,
+				1580D9A2213A73E2009A9E9B /* ko */,
+				1580D9A4213A73E2009A9E9B /* hu */,
+				1580D9B0213A73E3009A9E9B /* tr */,
+				1580D9B2213A73E3009A9E9B /* pl */,
+				1580D9B3213A73E3009A9E9B /* zh_TW */,
+				1580D9B4213A73E3009A9E9B /* en_GB */,
+				1580D9B6213A73E3009A9E9B /* vi */,
+				1580D9B8213A73E3009A9E9B /* ru */,
+				1580D9BB213A73E3009A9E9B /* fr */,
+				1580D9BC213A73E3009A9E9B /* fi */,
+				1580D9BE213A73E3009A9E9B /* id */,
+				1580D9BF213A73E3009A9E9B /* nl */,
+				1580D9C0213A73E3009A9E9B /* th */,
+				1580D9C1213A73E3009A9E9B /* pt */,
+				1580D9C2213A73E3009A9E9B /* ro */,
+				1580D9C5213A73E3009A9E9B /* hr */,
+				1580D9C8213A73E3009A9E9B /* ca */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -409,6 +1845,7 @@
 		1580D64D213A6D75009A9E9B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = GoogleMapsPlacesSDK/Info.plist;
@@ -426,6 +1863,7 @@
 		1580D64E213A6D75009A9E9B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = GoogleMapsPlacesSDK/Info.plist;
@@ -453,6 +1891,10 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/GoogleMapsPlacesSDK-Framework/Frameworks",
+					"$(PROJECT_DIR)/GoogleMapsPlacesSDK-Framework/Frameworks/GooglePlaces/Frameworks",
+					"$(PROJECT_DIR)/GoogleMapsPlacesSDK-Framework/Frameworks/GooglePlacePicker/Frameworks",
+					"$(PROJECT_DIR)/GoogleMapsPlacesSDK-Framework/Frameworks/GoogleMaps/Maps/Frameworks",
+					"$(PROJECT_DIR)/GoogleMapsPlacesSDK-Framework/Frameworks/GoogleMaps/Base/Frameworks",
 				);
 				INFOPLIST_FILE = "GoogleMapsPlacesSDK-Framework/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -484,6 +1926,10 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/GoogleMapsPlacesSDK-Framework/Frameworks",
+					"$(PROJECT_DIR)/GoogleMapsPlacesSDK-Framework/Frameworks/GooglePlaces/Frameworks",
+					"$(PROJECT_DIR)/GoogleMapsPlacesSDK-Framework/Frameworks/GooglePlacePicker/Frameworks",
+					"$(PROJECT_DIR)/GoogleMapsPlacesSDK-Framework/Frameworks/GoogleMaps/Maps/Frameworks",
+					"$(PROJECT_DIR)/GoogleMapsPlacesSDK-Framework/Frameworks/GoogleMaps/Base/Frameworks",
 				);
 				INFOPLIST_FILE = "GoogleMapsPlacesSDK-Framework/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
