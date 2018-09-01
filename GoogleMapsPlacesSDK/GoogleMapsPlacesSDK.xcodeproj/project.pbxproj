@@ -17,15 +17,10 @@
 		1580D65C213A6D99009A9E9B /* GoogleMapsPlacesSDK_Framework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1580D654213A6D99009A9E9B /* GoogleMapsPlacesSDK_Framework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1580DD4B213A79B0009A9E9B /* CHANGELOG in Resources */ = {isa = PBXBuildFile; fileRef = 1580DD38213A79AF009A9E9B /* CHANGELOG */; };
 		1580DD4C213A79B0009A9E9B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1580DD39213A79AF009A9E9B /* README.md */; };
-		1580DD4D213A79B0009A9E9B /* GooglePlacePicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1580DD3B213A79AF009A9E9B /* GooglePlacePicker.framework */; };
-		1580DD4E213A79B0009A9E9B /* GoogleMapsCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1580DD3F213A79AF009A9E9B /* GoogleMapsCore.framework */; };
-		1580DD4F213A79B0009A9E9B /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1580DD40213A79AF009A9E9B /* GoogleMaps.framework */; };
 		1580DD50213A79B0009A9E9B /* CHANGELOG in Resources */ = {isa = PBXBuildFile; fileRef = 1580DD41213A79AF009A9E9B /* CHANGELOG */; };
 		1580DD51213A79B0009A9E9B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1580DD42213A79AF009A9E9B /* README.md */; };
-		1580DD52213A79B0009A9E9B /* GoogleMapsBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1580DD45213A79AF009A9E9B /* GoogleMapsBase.framework */; };
 		1580DD53213A79B0009A9E9B /* CHANGELOG in Resources */ = {isa = PBXBuildFile; fileRef = 1580DD47213A79B0009A9E9B /* CHANGELOG */; };
 		1580DD54213A79B0009A9E9B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1580DD48213A79B0009A9E9B /* README.md */; };
-		1580DD55213A79B0009A9E9B /* GooglePlaces.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1580DD4A213A79B0009A9E9B /* GooglePlaces.framework */; };
 		1580DD58213A7A95009A9E9B /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1580DD57213A7A95009A9E9B /* Accelerate.framework */; };
 		1580DD5A213A7A9D009A9E9B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1580DD59213A7A9D009A9E9B /* CoreData.framework */; };
 		1580DD68213A7B06009A9E9B /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1580DD5B213A7B05009A9E9B /* GLKit.framework */; };
@@ -140,11 +135,6 @@
 				1580DD74213A7B06009A9E9B /* SystemConfiguration.framework in Frameworks */,
 				1580DD5A213A7A9D009A9E9B /* CoreData.framework in Frameworks */,
 				1580DD58213A7A95009A9E9B /* Accelerate.framework in Frameworks */,
-				1580DD4F213A79B0009A9E9B /* GoogleMaps.framework in Frameworks */,
-				1580DD52213A79B0009A9E9B /* GoogleMapsBase.framework in Frameworks */,
-				1580DD4D213A79B0009A9E9B /* GooglePlacePicker.framework in Frameworks */,
-				1580DD4E213A79B0009A9E9B /* GoogleMapsCore.framework in Frameworks */,
-				1580DD55213A79B0009A9E9B /* GooglePlaces.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
