@@ -33,10 +33,10 @@
 		1580DD76213A7B17009A9E9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1580DD75213A7B17009A9E9B /* Foundation.framework */; };
 		1580DD78213A7B45009A9E9B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1580DD77213A7B45009A9E9B /* Security.framework */; };
 		1580DD81213A9828009A9E9B /* GoogleMapsPlacesSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1580DD80213A9828009A9E9B /* GoogleMapsPlacesSDK.swift */; };
-		1580DEFE213A9B2A009A9E9B /* CHANGELOG in Resources */ = {isa = PBXBuildFile; fileRef = 1580DD8C213A9B26009A9E9B /* CHANGELOG */; };
-		1580DF82213A9B2A009A9E9B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1580DE3A213A9B27009A9E9B /* README.md */; };
-		1580DF84213A9B2A009A9E9B /* CHANGELOG in Resources */ = {isa = PBXBuildFile; fileRef = 1580DE42213A9B27009A9E9B /* CHANGELOG */; };
-		1580DFA0213A9B2A009A9E9B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1580DE94213A9B28009A9E9B /* README.md */; };
+		1580DEFE213A9B2A009A9E9B /* CHANGELOG1 in Resources */ = {isa = PBXBuildFile; fileRef = 1580DD8C213A9B26009A9E9B /* CHANGELOG1 */; };
+		1580DF82213A9B2A009A9E9B /* README1.md in Resources */ = {isa = PBXBuildFile; fileRef = 1580DE3A213A9B27009A9E9B /* README1.md */; };
+		1580DF84213A9B2A009A9E9B /* CHANGELOG2 in Resources */ = {isa = PBXBuildFile; fileRef = 1580DE42213A9B27009A9E9B /* CHANGELOG2 */; };
+		1580DFA0213A9B2A009A9E9B /* README2.md in Resources */ = {isa = PBXBuildFile; fileRef = 1580DE94213A9B28009A9E9B /* README2.md */; };
 		1580DFA2213A9B2A009A9E9B /* CHANGELOG in Resources */ = {isa = PBXBuildFile; fileRef = 1580DE9B213A9B28009A9E9B /* CHANGELOG */; };
 		1580DFC9213A9B2A009A9E9B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1580DEF6213A9B29009A9E9B /* README.md */; };
 		609F824E6BCD0D8CA795891E /* Pods_GoogleMapsPlacesSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC16026C8866E01A637D5895 /* Pods_GoogleMapsPlacesSDK.framework */; };
@@ -98,11 +98,11 @@
 		1580DD80213A9828009A9E9B /* GoogleMapsPlacesSDK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapsPlacesSDK.swift; sourceTree = "<group>"; };
 		1580DD8A213A9B26009A9E9B /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMapsCore.framework; sourceTree = "<group>"; };
 		1580DD8B213A9B26009A9E9B /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
-		1580DD8C213A9B26009A9E9B /* CHANGELOG */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGELOG; sourceTree = "<group>"; };
-		1580DE3A213A9B27009A9E9B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1580DD8C213A9B26009A9E9B /* CHANGELOG1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGELOG1; sourceTree = "<group>"; };
+		1580DE3A213A9B27009A9E9B /* README1.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README1.md; sourceTree = "<group>"; };
 		1580DE3D213A9B27009A9E9B /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMapsBase.framework; sourceTree = "<group>"; };
-		1580DE42213A9B27009A9E9B /* CHANGELOG */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGELOG; sourceTree = "<group>"; };
-		1580DE94213A9B28009A9E9B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1580DE42213A9B27009A9E9B /* CHANGELOG2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGELOG2; sourceTree = "<group>"; };
+		1580DE94213A9B28009A9E9B /* README2.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README2.md; sourceTree = "<group>"; };
 		1580DE96213A9B28009A9E9B /* GooglePlacePicker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GooglePlacePicker.framework; sourceTree = "<group>"; };
 		1580DE9B213A9B28009A9E9B /* CHANGELOG */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGELOG; sourceTree = "<group>"; };
 		1580DEF6213A9B29009A9E9B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -237,8 +237,8 @@
 			isa = PBXGroup;
 			children = (
 				1580DD88213A9B26009A9E9B /* Maps */,
-				1580DD8C213A9B26009A9E9B /* CHANGELOG */,
-				1580DE3A213A9B27009A9E9B /* README.md */,
+				1580DD8C213A9B26009A9E9B /* CHANGELOG1 */,
+				1580DE3A213A9B27009A9E9B /* README1.md */,
 				1580DE3B213A9B27009A9E9B /* Base */,
 			);
 			name = GoogleMaps;
@@ -281,8 +281,8 @@
 		1580DE41213A9B27009A9E9B /* GooglePlacePicker */ = {
 			isa = PBXGroup;
 			children = (
-				1580DE42213A9B27009A9E9B /* CHANGELOG */,
-				1580DE94213A9B28009A9E9B /* README.md */,
+				1580DE42213A9B27009A9E9B /* CHANGELOG2 */,
+				1580DE94213A9B28009A9E9B /* README2.md */,
 				1580DE95213A9B28009A9E9B /* Frameworks */,
 			);
 			name = GooglePlacePicker;
@@ -388,15 +388,16 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0940;
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Zaid Pathan";
 				TargetAttributes = {
 					1580D639213A6D74009A9E9B = {
 						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 1010;
 					};
 					1580D653213A6D99009A9E9B = {
 						CreatedOnToolsVersion = 9.4;
-						LastSwiftMigration = 0940;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -477,10 +478,10 @@
 			files = (
 				1580DFA2213A9B2A009A9E9B /* CHANGELOG in Resources */,
 				1580DFC9213A9B2A009A9E9B /* README.md in Resources */,
-				1580DEFE213A9B2A009A9E9B /* CHANGELOG in Resources */,
-				1580DFA0213A9B2A009A9E9B /* README.md in Resources */,
-				1580DF84213A9B2A009A9E9B /* CHANGELOG in Resources */,
-				1580DF82213A9B2A009A9E9B /* README.md in Resources */,
+				1580DEFE213A9B2A009A9E9B /* CHANGELOG1 in Resources */,
+				1580DFA0213A9B2A009A9E9B /* README2.md in Resources */,
+				1580DF84213A9B2A009A9E9B /* CHANGELOG2 in Resources */,
+				1580DF82213A9B2A009A9E9B /* README1.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -599,6 +600,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -659,6 +661,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -715,7 +718,8 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = G34KQT9TPD;
 				INFOPLIST_FILE = GoogleMapsPlacesSDK/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -723,7 +727,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ZaidPathan.GoogleMapsPlacesSDK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				PROVISIONING_PROFILE_SPECIFIER = "SA Star";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -734,7 +739,8 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = G34KQT9TPD;
 				INFOPLIST_FILE = GoogleMapsPlacesSDK/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -742,7 +748,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ZaidPathan.GoogleMapsPlacesSDK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				PROVISIONING_PROFILE_SPECIFIER = "SA Star";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -783,7 +790,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -825,7 +832,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ZaidPathan.GoogleMapsPlacesSDK-Framework";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
